@@ -1,0 +1,900 @@
+{
+  "items": [
+    {
+      "description": "The highest-impact strategies ranked by effort-to-savings ratio:\nCombined pipeline: Cache prefix (90%) + route to cheapest model (60-95%) + batch non-urgent (50%) + compress prompts (5-20x) + cache responses (100% on repeats) = 95-99% cost reduction vs. naive approach.",
+      "items": [],
+      "title": "Quick Wins"
+    },
+    {
+      "description": "Reuse previously-processed prompt prefixes to avoid re-computing the same tokens.",
+      "items": [],
+      "title": "Prompt Caching"
+    },
+    {
+      "description": "Structure prompts so the system prompt + user profile is the first ~2,000 tokens. All subsequent calls share this prefix. For bulk operations (e.g., scoring 50 items): 1x full + 49x at 10% = 88% total savings.",
+      "items": [],
+      "title": "Strategy: Cached Prefix Pattern"
+    },
+    {
+      "description": "Route simple tasks to cheaper models. 80% of typical LLM calls don't need the most expensive model.",
+      "items": [],
+      "title": "Model Routing"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "LiteLLM",
+          "description": "SDK + proxy for 100+ LLMs with routing, cost tracking. Strategies: least-busy, cost-based, latency-based.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T23:04:56Z",
+            "owner": "BerriAI",
+            "repo": "litellm",
+            "stars": 56275
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Portkey AI Gateway",
+          "description": "Open-source AI gateway routing to 1,600+ LLMs with guardrails, caching, and load balancing. Acquired by Palo Alto Networks (May 2026); gateway remains open-source under Apache 2.0.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-05-25T13:54:51Z",
+            "owner": "Portkey-AI",
+            "repo": "gateway",
+            "stars": 12706
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Bifrost",
+          "description": "50x faster than LiteLLM; adaptive load balancer, 1000+ models.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T22:12:49Z",
+            "owner": "maximhq",
+            "repo": "bifrost",
+            "stars": 7294
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RouteLLM",
+          "description": "Open-source LLM router by LMSYS. Trains routers from preference data; 2x+ cost reduction. Note: last commit Aug 2024; LMSYS team shifted focus to Chatbot Arena.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-08-10T19:10:15Z",
+            "owner": "lm-sys",
+            "repo": "RouteLLM",
+            "stars": 5345
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "vLLM Semantic Router",
+          "description": "System-level signal-driven router for Mixture-of-Models across cloud, data center, and edge. v0.3 \"Themis\" (June 2026); SAAR adds session-aware model selection cutting model switches 79% in multi-agent deployments.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T16:15:43Z",
+            "owner": "vllm-project",
+            "repo": "semantic-router",
+            "stars": 5151
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LLMRouter",
+          "description": "Open-source routing library with 16+ routers (single-round, multi-turn, agentic, personalized) and a unified CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-10T03:59:18Z",
+            "owner": "ulab-uiuc",
+            "repo": "LLMRouter",
+            "stars": 2339
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NotDiamond",
+          "description": "Per-query best-model selection. Note: the Python SDK was archived Dec 2025 (read-only); the notdiamond.ai service remains active.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Python",
+            "last_commit": "2025-12-11T20:29:25Z",
+            "owner": "Not-Diamond",
+            "repo": "notdiamond-python",
+            "stars": 91
+          }
+        }
+      ],
+      "title": "Frameworks"
+    },
+    {
+      "description": "Reduce prompt size while preserving information quality.",
+      "items": [],
+      "title": "Prompt Compression"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "RTK",
+          "description": "Single-binary Rust CLI proxy that compresses dev-command output 60-90% before it reaches a coding agent's context. Works with Claude Code, Cursor, Copilot, Gemini CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T00:14:17Z",
+            "owner": "rtk-ai",
+            "repo": "rtk",
+            "stars": 76032
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Headroom",
+          "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM (60-95% fewer tokens); library, proxy, and MCP server. Claude Code/Cursor/Aider compatible.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T22:45:21Z",
+            "owner": "headroomlabs-ai",
+            "repo": "headroom",
+            "stars": 66229
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "TOON",
+          "description": "Token-Oriented Object Notation: a compact, schema-aware encoding for passing JSON-like data to LLMs; 30-60% fewer tokens than JSON on uniform arrays of objects.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-07T19:54:27Z",
+            "owner": "toon-format",
+            "repo": "toon",
+            "stars": 25157
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "code2prompt",
+          "description": "Codebase to LLM prompt with token counting.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-06-29T18:24:06Z",
+            "owner": "mufeedvh",
+            "repo": "code2prompt",
+            "stars": 7597
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LLMLingua",
+          "description": "Up to 20x compression. Coarse-to-fine iterative method. Integrates with LangChain/LlamaIndex.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-04-08T18:59:13Z",
+            "owner": "microsoft",
+            "repo": "LLMLingua",
+            "stars": 6555
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "lean-ctx",
+          "description": "Rust binary context intelligence layer for AI coding agents; 60-90% fewer tokens via shell-output compression and 10 cached-read modes; MCP server with 76 tools and cross-session memory. Works with Claude Code, Cursor, Copilot, Windsurf, Gemini CLI, and 30+ others.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T12:59:06Z",
+            "owner": "yvgude",
+            "repo": "lean-ctx",
+            "stars": 3572
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "llmtrim",
+          "description": "Quality-gated local proxy and MCP server that compresses prompts, tool outputs, and replies before they reach the LLM, reverting any step that doesn't save tokens (project-reported -31% input / -74% output across 112 A/B cases). Rust CLI plus multi-language library bindings and a WebAssembly/JS package.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-12T16:37:21Z",
+            "owner": "fkiene",
+            "repo": "llmtrim",
+            "stars": 208
+          }
+        }
+      ],
+      "title": "Tools"
+    },
+    {
+      "description": "Rule-based lossless distillation achieves 3-4:1 compression without any model:\nStrip prose transitions, hedging, rhetoric, and common knowledge. Preserve numbers, entities, decisions, constraints, and risks. Transform prose into dense bullets and verbose text into semicolon-joined clauses. Split into 3,000-5,000 token self-contained sections that load independently.",
+      "items": [],
+      "title": "Lossless Compression Principles"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Context Window Management"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "OpenProvence",
+          "description": "Open reranker-pruner that drops ~99% off-topic sentences and compresses 80-90% of relevant RAG text; CPU-friendly.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-11-22T01:30:13Z",
+            "owner": "hotchpotch",
+            "repo": "open_provence",
+            "stars": 65
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Context Engineering Guide",
+          "description": "Curated papers and tools.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-03-25T12:20:29Z",
+            "owner": "mlnjsh",
+            "repo": "context-engineering",
+            "stars": 10
+          }
+        }
+      ],
+      "title": "Chunking & Splitting"
+    },
+    {
+      "description": "Server-side optimizations for inference efficiency.",
+      "items": [],
+      "title": "KV Cache Optimization"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "vLLM",
+          "description": "PagedAttention, high-throughput inference.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T22:08:41Z",
+            "owner": "vllm-project",
+            "repo": "vllm",
+            "stars": 88990
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SGLang",
+          "description": "RadixAttention for automatic KV cache reuse.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T22:59:43Z",
+            "owner": "sgl-project",
+            "repo": "sglang",
+            "stars": 31755
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NVIDIA Dynamo",
+          "description": "Datacenter-scale distributed inference with KV-cache-aware routing and disaggregated prefill/decode; ~2x faster TTFT, 7x throughput/GPU.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T23:06:15Z",
+            "owner": "ai-dynamo",
+            "repo": "dynamo",
+            "stars": 7757
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Mooncake",
+          "description": "Distributed KVCache engine (the serving platform behind Moonshot AI's Kimi); integrated into vLLM for high-bandwidth KV-cache transfer and cross-instance prefix reuse across disaggregated prefill/decode.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-13T17:19:21Z",
+            "owner": "kvcache-ai",
+            "repo": "Mooncake",
+            "stars": 6272
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "GPUStack",
+          "description": "GPU cluster manager for vLLM/SGLang.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T10:24:13Z",
+            "owner": "gpustack",
+            "repo": "gpustack",
+            "stars": 5479
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "llm-d",
+          "description": "Kubernetes-native distributed serving with prefix-cache-aware routing and tiered KV offload to CPU/disk (3x output throughput).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-08-13T23:01:30Z",
+            "owner": "llm-d",
+            "repo": "llm-d",
+            "stars": 4024
+          }
+        }
+      ],
+      "title": "Inference Engines"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "LMCache",
+          "description": "KV cache layer for vLLM/SGLang; offloads and reuses caches across engines (CPU/disk/S3) to cut TTFT for long-context, multi-turn, and RAG.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T21:45:28Z",
+            "owner": "LMCache",
+            "repo": "LMCache",
+            "stars": 11134
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DeepSpec",
+          "description": "DeepSeek's open-source speculative decoding stack powering DSpark; 60-85% faster on V4-Flash, 57-78% on V4-Pro; outperforms Eagle-3. MIT license.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-09T04:37:14Z",
+            "owner": "deepseek-ai",
+            "repo": "DeepSpec",
+            "stars": 6940
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "aibrix",
+          "description": "Cost-efficient infrastructure for GenAI inference.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T22:43:15Z",
+            "owner": "vllm-project",
+            "repo": "aibrix",
+            "stars": 5007
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "llm-compressor",
+          "description": "Compression for deployment with vLLM.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T21:47:12Z",
+            "owner": "vllm-project",
+            "repo": "llm-compressor",
+            "stars": 3671
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NVIDIA Model Optimizer",
+          "description": "Quantization, pruning, distillation, speculative decoding.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T22:33:16Z",
+            "owner": "NVIDIA",
+            "repo": "Model-Optimizer",
+            "stars": 3437
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "R-KV",
+          "description": "Redundancy-aware compression (NeurIPS 2025).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-20T04:54:05Z",
+            "owner": "Zefan-Cai",
+            "repo": "R-KV",
+            "stars": 1207
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NVIDIA kvpress",
+          "description": "KV cache compression made easy.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-10T11:11:49Z",
+            "owner": "NVIDIA",
+            "repo": "kvpress",
+            "stars": 1170
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "kvcached",
+          "description": "Virtualized elastic KV cache decoupling virtual/physical GPU memory for dynamic GPU sharing; plugs into vLLM/SGLang.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T03:33:55Z",
+            "owner": "ovg-project",
+            "repo": "kvcached",
+            "stars": 1131
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "TurboQuant",
+          "description": "Google's ICLR 2026; 5x KV cache compression.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-04-23T19:45:18Z",
+            "owner": "tonbistudio",
+            "repo": "turboquant-pytorch",
+            "stars": 1038
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "KVzip",
+          "description": "Query-agnostic KV cache eviction via context reconstruction (NeurIPS 2025 Oral); 3-4x memory reduction, 2x lower latency.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-02-11T05:54:19Z",
+            "owner": "snu-mllab",
+            "repo": "KVzip",
+            "stars": 225
+          }
+        }
+      ],
+      "title": "Compression Tools"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Speculative Sampling",
+          "description": "Fast inference via speculative decoding.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-08-22T03:34:29Z",
+            "owner": "feifeibear",
+            "repo": "LLMSpeculativeSampling",
+            "stars": 924
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome KV Cache Compression",
+          "description": "Must-read paper list.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-04-15T07:14:58Z",
+            "owner": "October2001",
+            "repo": "Awesome-KV-Cache-Compression",
+            "stars": 733
+          }
+        }
+      ],
+      "title": "Research"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "mini-sglang",
+          "description": "Learn LLM serving internals.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-05-17T12:37:42Z",
+            "owner": "sgl-project",
+            "repo": "mini-sglang",
+            "stars": 4744
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "tiny-llm",
+          "description": "Build a tiny vLLM on Apple Silicon.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T07:10:19Z",
+            "owner": "skyzh",
+            "repo": "tiny-llm",
+            "stars": 4483
+          }
+        }
+      ],
+      "title": "Educational"
+    },
+    {
+      "description": "Different browser automation approaches consume vastly different context.\nFor 10-page workflows: WebFetch = ~15KB vs Playwright = ~330KB total context consumed.",
+      "items": [],
+      "title": "Browser Tool Efficiency"
+    },
+    {
+      "description": "The accessibility tree strips visual styling to retain only semantic structure (name, role, state, value). 10-50x smaller than raw HTML. See: Token cost analysis in browser MCPs.",
+      "items": [],
+      "title": "Why Accessibility Trees Are Efficient"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "browser-use",
+          "description": "Foundation library for AI browser agents.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T19:28:15Z",
+            "owner": "browser-use",
+            "repo": "browser-use",
+            "stars": 109116
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mcp-compressor",
+          "description": "MCP proxy that shows a compressed tool surface first and fetches full schemas on demand, cutting tokens spent on large MCP tool descriptions.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-07-28T03:40:20Z",
+            "owner": "atlassian-labs",
+            "repo": "mcp-compressor",
+            "stars": 106
+          }
+        }
+      ],
+      "title": "Further Reading"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Langfuse",
+          "description": "Open-source LLM observability + cost tracking. Cost tracking docs. Acquired by ClickHouse (Jan 2026); still actively developed, MIT-licensed.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T22:34:21Z",
+            "owner": "langfuse",
+            "repo": "langfuse",
+            "stars": 33059
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MLflow",
+          "description": "Open-source AI/ML platform with GenAI observability in MLflow 3.x: LLM call tracing with per-span token tracking, prompt optimization tooling, and AI Gateway integration for cost control.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T21:21:56Z",
+            "owner": "mlflow",
+            "repo": "mlflow",
+            "stars": 27504
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "tiktoken",
+          "description": "OpenAI's fast BPE tokenizer (Python/Rust), 3-6x faster.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-05-24T08:43:54Z",
+            "owner": "openai",
+            "repo": "tiktoken",
+            "stars": 18986
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ccusage",
+          "description": "Fast local CLI reporting tokens and cost across 14+ coding agents (Claude Code, Codex, Gemini CLI, Copilot); offline, no upload.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T22:30:04Z",
+            "owner": "ccusage",
+            "repo": "ccusage",
+            "stars": 17897
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OpenLLMetry",
+          "description": "OpenTelemetry-based GenAI observability instrumenting LLM and vector-DB calls with per-call token and latency telemetry.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-10T08:49:01Z",
+            "owner": "traceloop",
+            "repo": "openllmetry",
+            "stars": 7377
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Helicone",
+          "description": "LLM observability, 300+ models, SOC 2. Cost tracking cookbook. Acquired by Mintlify (Mar 2026); now maintenance-only — security/bug fixes and new-model support continue, no new feature work.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-07-25T01:10:06Z",
+            "owner": "Helicone",
+            "repo": "helicone",
+            "stars": 6064
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "AgentOps",
+          "description": "Agent monitoring with LLM cost tracking.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-06-25T08:25:03Z",
+            "owner": "AgentOps-AI",
+            "repo": "agentops",
+            "stars": 5771
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "tokencost",
+          "description": "USD cost estimates for 400+ LLMs.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-09-05T08:10:10Z",
+            "owner": "AgentOps-AI",
+            "repo": "tokencost",
+            "stars": 2003
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Helicone AI Gateway",
+          "description": "Fastest open-source AI gateway (Rust).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2025-11-21T01:25:55Z",
+            "owner": "Helicone",
+            "repo": "ai-gateway",
+            "stars": 620
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Future AGI traceAI",
+          "description": "OpenTelemetry-based AI tracing capturing per-call tokens, cost, and latency across 35+ frameworks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-11T12:50:10Z",
+            "owner": "future-agi",
+            "repo": "traceAI",
+            "stars": 212
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "agenttrace",
+          "description": "Local-first TUI that reads Claude Code / Codex / Gemini / Aider / Cursor sessions to surface tokens, cost, cache use, retries, and latency.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T17:40:54Z",
+            "owner": "luoyuctl",
+            "repo": "agenttrace",
+            "stars": 119
+          }
+        }
+      ],
+      "title": "Cost Tracking Tools"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Pricing Comparison"
+    },
+    {
+      "description": "Tokenizer note (Anthropic): Claude Opus 4.7+, Sonnet 5, and Fable 5 use a newer tokenizer that produces roughly 30% more tokens for the same text; per-token prices are unchanged, so the effective cost of a fixed input rises proportionally (Sonnet 4.6 and earlier keep the previous tokenizer). Benchmark your real workload before assuming a newer model lowers cost — confirmed on Anthropic's official pricing docs (already linked under Provider Pricing Pages above).",
+      "items": [],
+      "title": "Notable Recent Pricing (June–July 2026)"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Prompt Engineering for Efficiency"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Academic Papers"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Prompt Compression"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Model Routing & Cascading"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Context & Inference"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "KV Cache & Inference"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Prompt Optimization"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Community Resources"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Awesome Efficient LLM",
+          "description": "Large curated list of efficient-LLM papers and tools.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-06-17T02:35:25Z",
+            "owner": "horseee",
+            "repo": "Awesome-Efficient-LLM",
+            "stars": 2033
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome AI Efficiency (Pruna)",
+          "description": "Curated list on making AI faster, cheaper, smaller, and greener.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-08-06T14:38:11Z",
+            "owner": "PrunaAI",
+            "repo": "awesome-ai-efficiency",
+            "stars": 231
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LLM Safe Haven",
+          "description": "Security toolkit for AI coding agents. hardens Claude Code, Cursor, Windsurf in 60 seconds. Companion project — agent retries from security failures waste tokens.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-13T18:21:00Z",
+            "owner": "pleasedodisturb",
+            "repo": "llm-safe-haven",
+            "stars": 5
+          }
+        }
+      ],
+      "title": "Related Projects"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T23:07:02.926Z",
+    "original_repository": "pleasedodisturb/awesome-llm-token-optimization",
+    "original_repository_sha": "37a8f0383e3bcc3d655712ea38a122bebf2c2202",
+    "enhanced_repository": "enhansome/enhansome-llm-token-optimization",
+    "enhanced_repository_description": null,
+    "title": "Awesome LLM Token Optimization with stars"
+  }
+}
