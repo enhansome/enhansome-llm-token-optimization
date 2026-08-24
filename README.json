@@ -1,6 +1,55 @@
 {
   "items": [
     {
+      "description": "Reuse previously-processed prompt prefixes to avoid re-computing the same tokens.",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "autocache",
+              "description": "Transparent Anthropic proxy that auto-injects breakpoints at optimal positions; up to 90% cost and 85% latency reduction.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1071024373,
+                "language": "Go",
+                "last_commit": "2026-02-02T15:35:50Z",
+                "owner": "montevive",
+                "repo": "autocache",
+                "stars": 159
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Tools"
+        }
+      ],
+      "title": "Prompt Caching"
+    },
+    {
+      "description": "50% discounts for non-time-critical requests. Combine with caching for 95% savings.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Curator",
+          "description": "Batch-inference and synthetic-data library; gives ~50% savings across OpenAI/Anthropic/Gemini/Mistral with built-in caching and retries.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 879473096,
+            "language": "Python",
+            "last_commit": "2026-08-07T07:54:05Z",
+            "owner": "bespokelabsai",
+            "repo": "curator",
+            "stars": 1718
+          }
+        }
+      ],
+      "title": "Batch APIs"
+    },
+    {
       "description": "Route simple tasks to cheaper models. 80% of typical LLM calls don't need the most expensive model.",
       "items": [
         {
@@ -14,10 +63,10 @@
                 "archived": false,
                 "id": 671269505,
                 "language": "Python",
-                "last_commit": "2026-08-23T22:08:28Z",
+                "last_commit": "2026-08-24T14:38:05Z",
                 "owner": "BerriAI",
                 "repo": "litellm",
-                "stars": 57083
+                "stars": 57143
               }
             },
             {
@@ -32,7 +81,7 @@
                 "last_commit": "2026-05-25T13:54:51Z",
                 "owner": "Portkey-AI",
                 "repo": "gateway",
-                "stars": 12807
+                "stars": 12815
               }
             },
             {
@@ -44,10 +93,10 @@
                 "archived": false,
                 "id": 951115072,
                 "language": "Go",
-                "last_commit": "2026-08-23T15:23:17Z",
+                "last_commit": "2026-08-24T14:46:22Z",
                 "owner": "maximhq",
                 "repo": "bifrost",
-                "stars": 7521
+                "stars": 7538
               }
             },
             {
@@ -62,7 +111,7 @@
                 "last_commit": "2024-08-10T19:10:15Z",
                 "owner": "lm-sys",
                 "repo": "RouteLLM",
-                "stars": 5388
+                "stars": 5393
               }
             },
             {
@@ -74,10 +123,10 @@
                 "archived": false,
                 "id": 1045247072,
                 "language": "Go",
-                "last_commit": "2026-08-23T17:59:46Z",
+                "last_commit": "2026-08-24T14:26:43Z",
                 "owner": "vllm-project",
                 "repo": "semantic-router",
-                "stars": 5246
+                "stars": 5258
               }
             },
             {
@@ -92,7 +141,7 @@
                 "last_commit": "2026-08-20T08:24:44Z",
                 "owner": "ulab-uiuc",
                 "repo": "LLMRouter",
-                "stars": 2503
+                "stars": 2519
               }
             },
             {
@@ -114,6 +163,28 @@
           "description": null,
           "node_type": "group",
           "title": "Frameworks"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Awesome AI Model Routing",
+              "description": "Comprehensive list of routing approaches.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 840057595,
+                "language": null,
+                "last_commit": "2025-03-24T16:54:50Z",
+                "owner": "Not-Diamond",
+                "repo": "awesome-ai-model-routing",
+                "stars": 242
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Curated Lists"
         }
       ],
       "title": "Model Routing"
@@ -132,10 +203,10 @@
                 "archived": false,
                 "id": 1139971460,
                 "language": "Rust",
-                "last_commit": "2026-08-23T19:52:28Z",
+                "last_commit": "2026-08-23T23:04:13Z",
                 "owner": "rtk-ai",
                 "repo": "rtk",
-                "stars": 77158
+                "stars": 77249
               }
             },
             {
@@ -147,10 +218,10 @@
                 "archived": false,
                 "id": 1129940957,
                 "language": "Python",
-                "last_commit": "2026-08-23T19:01:10Z",
+                "last_commit": "2026-08-24T11:04:33Z",
                 "owner": "headroomlabs-ai",
                 "repo": "headroom",
-                "stars": 67281
+                "stars": 67370
               }
             },
             {
@@ -165,7 +236,7 @@
                 "last_commit": "2026-08-23T08:37:43Z",
                 "owner": "toon-format",
                 "repo": "toon",
-                "stars": 25231
+                "stars": 25239
               }
             },
             {
@@ -180,7 +251,7 @@
                 "last_commit": "2026-06-29T18:24:06Z",
                 "owner": "mufeedvh",
                 "repo": "code2prompt",
-                "stars": 7614
+                "stars": 7613
               }
             },
             {
@@ -195,7 +266,7 @@
                 "last_commit": "2026-04-08T18:59:13Z",
                 "owner": "microsoft",
                 "repo": "LLMLingua",
-                "stars": 6596
+                "stars": 6600
               }
             },
             {
@@ -207,10 +278,10 @@
                 "archived": false,
                 "id": 1189918673,
                 "language": "Rust",
-                "last_commit": "2026-08-23T20:53:46Z",
+                "last_commit": "2026-08-24T14:33:07Z",
                 "owner": "yvgude",
                 "repo": "lean-ctx",
-                "stars": 3639
+                "stars": 3643
               }
             },
             {
@@ -232,6 +303,28 @@
           "description": null,
           "node_type": "group",
           "title": "Tools"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Awesome LLM Compression",
+              "description": "Curated paper list.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 647138126,
+                "language": null,
+                "last_commit": "2026-06-30T15:26:46Z",
+                "owner": "HuangOwen",
+                "repo": "Awesome-LLM-Compression",
+                "stars": 1864
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Guides"
         }
       ],
       "title": "Prompt Compression"
@@ -239,6 +332,28 @@
     {
       "description": null,
       "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Context Rot toolkit (Chroma)",
+              "description": "Toolkit reproducing how LLMs degrade well before context limits (18 models tested).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1019364473,
+                "language": "Python",
+                "last_commit": "2025-09-03T02:36:32Z",
+                "owner": "chroma-core",
+                "repo": "context-rot",
+                "stars": 301
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Key Research"
+        },
         {
           "children": [
             {
@@ -293,10 +408,10 @@
                 "archived": false,
                 "id": 599547518,
                 "language": "Python",
-                "last_commit": "2026-08-23T17:33:07Z",
+                "last_commit": "2026-08-24T14:48:12Z",
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 89805
+                "stars": 89873
               }
             },
             {
@@ -308,10 +423,10 @@
                 "archived": false,
                 "id": 740303686,
                 "language": "Python",
-                "last_commit": "2026-08-23T21:25:52Z",
+                "last_commit": "2026-08-24T14:46:22Z",
                 "owner": "sgl-project",
                 "repo": "sglang",
-                "stars": 32305
+                "stars": 32355
               }
             },
             {
@@ -323,10 +438,10 @@
                 "archived": false,
                 "id": 942206898,
                 "language": "Rust",
-                "last_commit": "2026-08-23T22:33:09Z",
+                "last_commit": "2026-08-24T14:41:01Z",
                 "owner": "ai-dynamo",
                 "repo": "dynamo",
-                "stars": 7838
+                "stars": 7845
               }
             },
             {
@@ -338,10 +453,10 @@
                 "archived": false,
                 "id": 819733173,
                 "language": "C++",
-                "last_commit": "2026-08-23T16:01:04Z",
+                "last_commit": "2026-08-24T12:17:17Z",
                 "owner": "kvcache-ai",
                 "repo": "Mooncake",
-                "stars": 6353
+                "stars": 6367
               }
             },
             {
@@ -353,10 +468,10 @@
                 "archived": false,
                 "id": 799049436,
                 "language": "Python",
-                "last_commit": "2026-08-23T15:40:12Z",
+                "last_commit": "2026-08-24T11:56:22Z",
                 "owner": "gpustack",
                 "repo": "gpustack",
-                "stars": 5540
+                "stars": 5541
               }
             },
             {
@@ -368,10 +483,10 @@
                 "archived": false,
                 "id": 975070903,
                 "language": "Shell",
-                "last_commit": "2026-08-23T12:10:21Z",
+                "last_commit": "2026-08-24T14:26:54Z",
                 "owner": "llm-d",
                 "repo": "llm-d",
-                "stars": 4116
+                "stars": 4133
               }
             }
           ],
@@ -390,10 +505,10 @@
                 "archived": false,
                 "id": 807305060,
                 "language": "Python",
-                "last_commit": "2026-08-23T10:25:32Z",
+                "last_commit": "2026-08-24T09:54:11Z",
                 "owner": "LMCache",
                 "repo": "LMCache",
-                "stars": 11324
+                "stars": 11341
               }
             },
             {
@@ -408,7 +523,7 @@
                 "last_commit": "2026-07-09T04:37:14Z",
                 "owner": "deepseek-ai",
                 "repo": "DeepSpec",
-                "stars": 7027
+                "stars": 7033
               }
             },
             {
@@ -420,10 +535,10 @@
                 "archived": false,
                 "id": 813348592,
                 "language": "Go",
-                "last_commit": "2026-08-23T16:14:52Z",
+                "last_commit": "2026-08-24T14:29:44Z",
                 "owner": "vllm-project",
                 "repo": "aibrix",
-                "stars": 5029
+                "stars": 5031
               }
             },
             {
@@ -435,10 +550,10 @@
                 "archived": false,
                 "id": 817962136,
                 "language": "Python",
-                "last_commit": "2026-08-23T15:01:29Z",
+                "last_commit": "2026-08-24T13:43:47Z",
                 "owner": "vllm-project",
                 "repo": "llm-compressor",
-                "stars": 3712
+                "stars": 3717
               }
             },
             {
@@ -450,10 +565,10 @@
                 "archived": false,
                 "id": 790916393,
                 "language": "Python",
-                "last_commit": "2026-08-23T17:48:11Z",
+                "last_commit": "2026-08-24T12:48:28Z",
                 "owner": "NVIDIA",
                 "repo": "Model-Optimizer",
-                "stars": 3469
+                "stars": 3473
               }
             },
             {
@@ -483,7 +598,7 @@
                 "last_commit": "2026-08-18T10:31:20Z",
                 "owner": "NVIDIA",
                 "repo": "kvpress",
-                "stars": 1181
+                "stars": 1187
               }
             },
             {
@@ -513,7 +628,7 @@
                 "last_commit": "2026-04-23T19:45:18Z",
                 "owner": "tonbistudio",
                 "repo": "turboquant-pytorch",
-                "stars": 1040
+                "stars": 1039
               }
             },
             {
@@ -587,7 +702,7 @@
                 "last_commit": "2026-05-17T12:37:42Z",
                 "owner": "sgl-project",
                 "repo": "mini-sglang",
-                "stars": 4818
+                "stars": 4830
               }
             },
             {
@@ -599,10 +714,10 @@
                 "archived": false,
                 "id": 969286259,
                 "language": "Python",
-                "last_commit": "2026-08-18T02:56:48Z",
+                "last_commit": "2026-08-24T13:58:20Z",
                 "owner": "skyzh",
                 "repo": "tiny-llm",
-                "stars": 4512
+                "stars": 4514
               }
             }
           ],
@@ -617,6 +732,51 @@
       "description": "Different browser automation approaches consume vastly different context.\nFor 10-page workflows: WebFetch = ~15KB vs Playwright = ~330KB total context consumed.",
       "items": [
         {
+          "node_type": "item",
+          "title": "Playwright MCP",
+          "description": "~10-33 KB (accessibility tree) Baseline GitHub",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 952688112,
+            "language": "TypeScript",
+            "last_commit": "2026-08-21T22:46:04Z",
+            "owner": "microsoft",
+            "repo": "playwright-mcp",
+            "stars": 36423
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Agent Browser ⚠️",
+          "description": "~28 KB (accessibility tree) Project unmaintained 2026-05 — superseded by browser-use direct mode + Playwright MCP GitHub",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1132001614,
+            "language": "Rust",
+            "last_commit": "2026-08-24T01:55:39Z",
+            "owner": "vercel-labs",
+            "repo": "agent-browser",
+            "stars": 41237
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Lightpanda",
+          "description": "~16 KB (raw markdown) 2x better GitHub",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 598667202,
+            "language": "Zig",
+            "last_commit": "2026-08-24T13:51:19Z",
+            "owner": "lightpanda-io",
+            "repo": "browser",
+            "stars": 34220
+          }
+        },
+        {
           "children": [
             {
               "node_type": "item",
@@ -630,7 +790,7 @@
                 "last_commit": "2026-08-22T23:25:03Z",
                 "owner": "browser-use",
                 "repo": "browser-use",
-                "stars": 110256
+                "stars": 110332
               }
             },
             {
@@ -668,10 +828,10 @@
             "archived": false,
             "id": 642497346,
             "language": "TypeScript",
-            "last_commit": "2026-08-23T14:42:20Z",
+            "last_commit": "2026-08-24T14:46:11Z",
             "owner": "langfuse",
             "repo": "langfuse",
-            "stars": 33586
+            "stars": 33631
           }
         },
         {
@@ -683,10 +843,10 @@
             "archived": false,
             "id": 136202695,
             "language": "Python",
-            "last_commit": "2026-08-22T21:29:09Z",
+            "last_commit": "2026-08-24T12:12:03Z",
             "owner": "mlflow",
             "repo": "mlflow",
-            "stars": 27633
+            "stars": 27650
           }
         },
         {
@@ -701,7 +861,7 @@
             "last_commit": "2026-08-17T05:25:57Z",
             "owner": "openai",
             "repo": "tiktoken",
-            "stars": 19077
+            "stars": 19085
           }
         },
         {
@@ -716,7 +876,7 @@
             "last_commit": "2026-08-23T01:36:41Z",
             "owner": "ccusage",
             "repo": "ccusage",
-            "stars": 18125
+            "stars": 18142
           }
         },
         {
@@ -731,7 +891,7 @@
             "last_commit": "2026-08-10T08:49:01Z",
             "owner": "traceloop",
             "repo": "openllmetry",
-            "stars": 7392
+            "stars": 7394
           }
         },
         {
@@ -746,7 +906,7 @@
             "last_commit": "2026-08-23T16:42:14Z",
             "owner": "Helicone",
             "repo": "helicone",
-            "stars": 6095
+            "stars": 6097
           }
         },
         {
@@ -761,7 +921,7 @@
             "last_commit": "2026-06-25T08:25:03Z",
             "owner": "AgentOps-AI",
             "repo": "agentops",
-            "stars": 5794
+            "stars": 5795
           }
         },
         {
@@ -818,10 +978,10 @@
             "archived": false,
             "id": 1226187070,
             "language": "Rust",
-            "last_commit": "2026-08-22T05:02:09Z",
+            "last_commit": "2026-08-24T01:09:37Z",
             "owner": "luoyuctl",
             "repo": "agenttrace",
-            "stars": 121
+            "stars": 122
           }
         }
       ],
@@ -844,7 +1004,7 @@
                 "last_commit": "2025-06-17T02:35:25Z",
                 "owner": "horseee",
                 "repo": "Awesome-Efficient-LLM",
-                "stars": 2036
+                "stars": 2035
               }
             },
             {
@@ -859,7 +1019,7 @@
                 "last_commit": "2026-08-06T14:38:11Z",
                 "owner": "PrunaAI",
                 "repo": "awesome-ai-efficiency",
-                "stars": 232
+                "stars": 233
               }
             },
             {
@@ -871,7 +1031,7 @@
                 "archived": false,
                 "id": 1220229610,
                 "language": "JavaScript",
-                "last_commit": "2026-08-23T17:50:27Z",
+                "last_commit": "2026-08-24T08:11:32Z",
                 "owner": "pleasedodisturb",
                 "repo": "llm-safe-haven",
                 "stars": 5
@@ -887,7 +1047,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-23T22:42:16.418Z",
+    "last_updated": "2026-08-24T14:48:57.417Z",
     "original_repository": "pleasedodisturb/awesome-llm-token-optimization",
     "original_repository_id": 1211661982,
     "original_repository_sha": "37a8f0383e3bcc3d655712ea38a122bebf2c2202",
