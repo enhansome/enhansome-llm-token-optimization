@@ -12,12 +12,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🚀 Autocache - Intelligent Anthropic API Cache Proxy   Automatically inject cache-control fields into Claude API requests to reduce costs by up to 90% and latency by up to 85%. Works as a transparent drop-in replacement for popular AI platforms like n8n, Flowise, Make.com, LangChain,  and LlamaIndex—no code changes required",
+                "homepage": "https://montevive.ai",
                 "id": 1071024373,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-02-02T15:35:50Z",
+                "open_issues": 2,
                 "owner": "montevive",
                 "repo": "autocache",
-                "stars": 159
+                "stars": 161,
+                "topics": [
+                  "agent",
+                  "agentic-ai",
+                  "ai",
+                  "cache",
+                  "claude",
+                  "flowise",
+                  "n8n",
+                  "prompt-caching",
+                  "proxy"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             }
@@ -39,12 +54,29 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Synthetic data curation for post-training and structured data extraction",
+            "homepage": "https://docs.bespokelabs.ai/bespoke-curator",
             "id": 879473096,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-07T07:54:05Z",
+            "open_issues": 74,
             "owner": "bespokelabsai",
             "repo": "curator",
-            "stars": 1720
+            "stars": 1720,
+            "topics": [
+              "agents",
+              "deep-learning",
+              "fine-tuning",
+              "instruction-tuning",
+              "llm",
+              "machine-learning",
+              "natural-language-processing",
+              "prompt",
+              "python",
+              "synthetic-data",
+              "synthetic-dataset-generation"
+            ]
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
         }
@@ -63,12 +95,34 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+                "homepage": "https://docs.litellm.ai/docs/",
                 "id": 671269505,
                 "language": "Python",
-                "last_commit": "2026-08-28T05:55:11Z",
+                "license": "NOASSERTION",
+                "last_commit": "2026-08-29T02:12:31Z",
+                "open_issues": 4854,
                 "owner": "BerriAI",
                 "repo": "litellm",
-                "stars": 57447
+                "stars": 57505,
+                "topics": [
+                  "ai-gateway",
+                  "anthropic",
+                  "azure-openai",
+                  "bedrock",
+                  "gateway",
+                  "langchain",
+                  "litellm",
+                  "llm",
+                  "llm-gateway",
+                  "llmops",
+                  "mcp-gateway",
+                  "openai",
+                  "openai-proxy",
+                  "rust",
+                  "rust-ai",
+                  "vertex-ai"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -79,12 +133,33 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A blazing fast AI Gateway with integrated guardrails. Route to 1,600+ LLMs, 50+ AI Guardrails with 1 fast & friendly API.",
+                "homepage": "https://portkey.ai/features/ai-gateway",
                 "id": 682080300,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-05-25T13:54:51Z",
+                "open_issues": 249,
                 "owner": "Portkey-AI",
                 "repo": "gateway",
-                "stars": 12842
+                "stars": 12848,
+                "topics": [
+                  "ai-gateway",
+                  "gateway",
+                  "generative-ai",
+                  "hacktoberfest",
+                  "langchain",
+                  "llm",
+                  "llm-gateway",
+                  "llmops",
+                  "llms",
+                  "mcp",
+                  "mcp-client",
+                  "mcp-gateway",
+                  "mcp-servers",
+                  "model-router",
+                  "openai"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -95,12 +170,34 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+                "homepage": "https://www.getmaxim.ai/bifrost",
                 "id": 951115072,
                 "language": "Go",
-                "last_commit": "2026-08-28T06:04:50Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T19:33:20Z",
+                "open_issues": 960,
                 "owner": "maximhq",
                 "repo": "bifrost",
-                "stars": 7608
+                "stars": 7629,
+                "topics": [
+                  "ai-gateway",
+                  "gateway",
+                  "gateway-services",
+                  "generative-ai",
+                  "guardrails",
+                  "llm",
+                  "llm-cost",
+                  "llm-gateway",
+                  "llm-observability",
+                  "llmops",
+                  "load-balancing",
+                  "mcp-client",
+                  "mcp-gateway",
+                  "mcp-server",
+                  "model-router",
+                  "token-management"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -111,12 +208,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A framework for serving and evaluating LLM routers - save LLM costs without compromising quality",
+                "homepage": null,
                 "id": 809559722,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2024-08-10T19:10:15Z",
+                "open_issues": 41,
                 "owner": "lm-sys",
                 "repo": "RouteLLM",
-                "stars": 5410
+                "stars": 5414,
+                "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -127,12 +229,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
+                "homepage": "https://vllm-sr.ai",
                 "id": 1045247072,
                 "language": "Go",
-                "last_commit": "2026-08-28T05:58:46Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T02:12:11Z",
+                "open_issues": 373,
                 "owner": "vllm-project",
                 "repo": "semantic-router",
-                "stars": 5361
+                "stars": 5389,
+                "topics": [
+                  "ai-gateway",
+                  "guardrails",
+                  "inference",
+                  "kubernetes",
+                  "llm",
+                  "llmrouter",
+                  "mixture-of-models",
+                  "pytorch",
+                  "semantic-router",
+                  "transformer",
+                  "vllm"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -143,12 +262,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "LLMRouter: An Open-Source Library for LLM Routing",
+                "homepage": "https://ulab-uiuc.github.io/LLMRouter/",
                 "id": 1071843152,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-20T08:24:44Z",
+                "open_issues": 37,
                 "owner": "ulab-uiuc",
                 "repo": "LLMRouter",
-                "stars": 2591
+                "stars": 2623,
+                "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -159,12 +283,17 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "Not Diamond Python SDK",
+                "homepage": null,
                 "id": 832914653,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2025-12-11T20:29:25Z",
+                "open_issues": 4,
                 "owner": "Not-Diamond",
                 "repo": "notdiamond-python",
-                "stars": 91
+                "stars": 91,
+                "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             }
@@ -182,12 +311,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A curated list of awesome approaches to AI model routing",
+                "homepage": null,
                 "id": 840057595,
                 "language": null,
+                "license": "Apache-2.0",
                 "last_commit": "2025-03-24T16:54:50Z",
+                "open_issues": 13,
                 "owner": "Not-Diamond",
                 "repo": "awesome-ai-model-routing",
-                "stars": 243
+                "stars": 243,
+                "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             }
@@ -211,12 +345,31 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+                "homepage": "https://www.rtk-ai.app",
                 "id": 1139971460,
                 "language": "Rust",
-                "last_commit": "2026-08-27T09:46:27Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T23:41:35Z",
+                "open_issues": 2074,
                 "owner": "rtk-ai",
                 "repo": "rtk",
-                "stars": 77658
+                "stars": 77751,
+                "topics": [
+                  "agentic-coding",
+                  "ai-coding",
+                  "anthropic",
+                  "claude-code",
+                  "cli",
+                  "command-line-tool",
+                  "cost-reduction",
+                  "developer-tools",
+                  "llm",
+                  "open-source",
+                  "productivity",
+                  "rust",
+                  "token-optimization"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -227,12 +380,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+                "homepage": "https://docs.headroomlabs.ai/docs",
                 "id": 1129940957,
                 "language": "Python",
-                "last_commit": "2026-08-28T04:22:23Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T13:11:43Z",
+                "open_issues": 573,
                 "owner": "headroomlabs-ai",
                 "repo": "headroom",
-                "stars": 67857
+                "stars": 67934,
+                "topics": [
+                  "agent",
+                  "ai",
+                  "anthropic",
+                  "claude-code",
+                  "compression",
+                  "context-engineering",
+                  "context-window",
+                  "cursor",
+                  "fastapi",
+                  "langchain",
+                  "llm",
+                  "mcp",
+                  "openai",
+                  "prompt-engineering",
+                  "proxy",
+                  "python",
+                  "rag",
+                  "token-optimization",
+                  "tokens",
+                  "typescript"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -243,12 +422,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🎒 Token-Oriented Object Notation (TOON) – compact, human-readable serialization of JSON data for LLM prompts. TypeScript SDK, CLI, benchmarks.",
+                "homepage": "https://toonformat.dev",
                 "id": 1081397957,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-23T08:37:43Z",
+                "open_issues": 4,
                 "owner": "toon-format",
                 "repo": "toon",
-                "stars": 25268
+                "stars": 25269,
+                "topics": [
+                  "data-format",
+                  "llm",
+                  "serialization",
+                  "tokenization"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -259,12 +448,31 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.",
+                "homepage": "https://code2prompt.dev",
                 "id": 769564277,
                 "language": "Rust",
+                "license": "MIT",
                 "last_commit": "2026-06-29T18:24:06Z",
+                "open_issues": 21,
                 "owner": "mufeedvh",
                 "repo": "code2prompt",
-                "stars": 7620
+                "stars": 7618,
+                "topics": [
+                  "ai",
+                  "chatgpt",
+                  "claude",
+                  "cli",
+                  "command-line",
+                  "command-line-tool",
+                  "gpt",
+                  "llm",
+                  "prompt",
+                  "prompt-engineering",
+                  "prompt-generator",
+                  "prompt-toolkit",
+                  "rust"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -275,12 +483,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "[EMNLP'23, ACL'24] To speed up LLMs' inference and enhance LLM's perceive of key information, compress the prompt and KV-Cache, which achieves up to 20x compression with minimal performance loss. ",
+                "homepage": "https://llmlingua.com/",
                 "id": 663368311,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-04-08T18:59:13Z",
+                "open_issues": 120,
                 "owner": "microsoft",
                 "repo": "LLMLingua",
-                "stars": 6609
+                "stars": 6610,
+                "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -291,12 +504,37 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Control what your AI can see. LeanCTX (Lean Context) is the context intelligence layer for AI agents — one local Rust binary that decides what they read, remembers what they learn, guards what they touch, and proves what they save. 60–90% fewer tokens as the receipt. 76 MCP tools, 30+ agents, local-first.",
+                "homepage": "https://leanctx.com",
                 "id": 1189918673,
                 "language": "Rust",
-                "last_commit": "2026-08-26T12:25:47Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T17:05:00Z",
+                "open_issues": 25,
                 "owner": "yvgude",
                 "repo": "lean-ctx",
-                "stars": 3664
+                "stars": 3671,
+                "topics": [
+                  "agentic-coding",
+                  "ai",
+                  "ai-agents",
+                  "ai-coding",
+                  "claude-code",
+                  "context-engineering",
+                  "context-intelligence",
+                  "context-layer",
+                  "copilot",
+                  "cursor",
+                  "developer-tools",
+                  "gemini-cli",
+                  "lean-context",
+                  "llm",
+                  "mcp",
+                  "mcp-server",
+                  "reduce-token-costs",
+                  "rust",
+                  "token-optimization"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -307,12 +545,35 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Local proxy that compresses your LLM API requests so you pay less, with no change to the answers. Trims wasted tokens from prompts, history, tool output, and code before they're sent: -31% input / -74% output, measured live. Any provider, no extra model calls. Also an MCP server and embeddable library (Rust, Python, Ruby, Kotlin, Swift, JS/TS).",
+                "homepage": "https://www.npmjs.com/package/@llmtrim/cli",
                 "id": 1262281362,
                 "language": "Rust",
+                "license": "MPL-2.0",
                 "last_commit": "2026-08-17T13:14:36Z",
+                "open_issues": 10,
                 "owner": "fkiene",
                 "repo": "llmtrim",
-                "stars": 219
+                "stars": 222,
+                "topics": [
+                  "agentic-coding",
+                  "ai",
+                  "anthropic",
+                  "claude-code",
+                  "cost-reduction",
+                  "developer-tools",
+                  "llm",
+                  "llmops",
+                  "mcp",
+                  "mitm-proxy",
+                  "openai",
+                  "prompt",
+                  "prompt-compression",
+                  "prompt-engineering",
+                  "proxy",
+                  "rust",
+                  "token-optimization"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             }
@@ -330,12 +591,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Awesome LLM compression research papers and tools.",
+                "homepage": null,
                 "id": 647138126,
                 "language": null,
+                "license": "MIT",
                 "last_commit": "2026-08-27T15:48:21Z",
+                "open_issues": 0,
                 "owner": "HuangOwen",
                 "repo": "Awesome-LLM-Compression",
-                "stars": 1867
+                "stars": 1867,
+                "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             }
@@ -359,12 +625,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "This repository contains the toolkit for replicating results from our technical report.",
+                "homepage": null,
                 "id": 1019364473,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2025-09-03T02:36:32Z",
+                "open_issues": 2,
                 "owner": "chroma-core",
                 "repo": "context-rot",
-                "stars": 301
+                "stars": 302,
+                "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             }
@@ -382,12 +653,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "✂️ OpenProvence: Open-Source, Efficient, and Robust Context Pruning for Retrieval-Augmented Generation",
+                "homepage": null,
                 "id": 1085678548,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2025-11-22T01:30:13Z",
+                "open_issues": 1,
                 "owner": "hotchpotch",
                 "repo": "open_provence",
-                "stars": 66
+                "stars": 66,
+                "topics": [
+                  "information-retrieval",
+                  "machine-learning",
+                  "nlp"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -398,12 +678,30 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🧠 The Complete Guide to Context Engineering — Research Papers, Blogs, YouTube Videos, Tools & Best Practices for LLM Context Window Optimization",
+                "homepage": null,
                 "id": 1163900653,
                 "language": null,
+                "license": "MIT",
                 "last_commit": "2026-03-25T12:20:29Z",
+                "open_issues": 0,
                 "owner": "mlnjsh",
                 "repo": "context-engineering",
-                "stars": 10
+                "stars": 10,
+                "topics": [
+                  "ai",
+                  "best-practices",
+                  "context-engineering",
+                  "context-window",
+                  "large-language-models",
+                  "llm",
+                  "prompt-engineering",
+                  "rag",
+                  "research",
+                  "retrieval-augmented-generation",
+                  "transformers",
+                  "vector-database"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             }
@@ -427,12 +725,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+                "homepage": "https://vllm.ai",
                 "id": 599547518,
                 "language": "Python",
-                "last_commit": "2026-08-28T05:28:43Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T03:18:04Z",
+                "open_issues": 7153,
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 90273
+                "stars": 90352,
+                "topics": [
+                  "amd",
+                  "blackwell",
+                  "cuda",
+                  "deepseek",
+                  "deepseek-v3",
+                  "gpt",
+                  "gpt-oss",
+                  "inference",
+                  "kimi",
+                  "llama",
+                  "llm",
+                  "llm-serving",
+                  "model-serving",
+                  "moe",
+                  "openai",
+                  "pytorch",
+                  "qwen",
+                  "qwen3",
+                  "tpu",
+                  "transformer"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -443,12 +767,36 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+                "homepage": "https://sglang.io",
                 "id": 740303686,
                 "language": "Python",
-                "last_commit": "2026-08-28T06:02:35Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T03:43:53Z",
+                "open_issues": 4988,
                 "owner": "sgl-project",
                 "repo": "sglang",
-                "stars": 32598
+                "stars": 32640,
+                "topics": [
+                  "attention",
+                  "blackwell",
+                  "cuda",
+                  "deepseek",
+                  "diffusion",
+                  "glm",
+                  "gpt-oss",
+                  "inference",
+                  "llama",
+                  "llm",
+                  "minimax",
+                  "moe",
+                  "qwen",
+                  "qwen-image",
+                  "reinforcement-learning",
+                  "transformer",
+                  "vlm",
+                  "wan"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -459,12 +807,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A Datacenter Scale Distributed Inference Serving Framework",
+                "homepage": "https://docs.nvidia.com/dynamo/latest",
                 "id": 942206898,
                 "language": "Rust",
-                "last_commit": "2026-08-28T06:05:36Z",
+                "license": "NOASSERTION",
+                "last_commit": "2026-08-29T03:27:34Z",
+                "open_issues": 1319,
                 "owner": "ai-dynamo",
                 "repo": "dynamo",
-                "stars": 7886
+                "stars": 7896,
+                "topics": [
+                  "diffusion",
+                  "disaggregated-serving",
+                  "kubernetes",
+                  "llm-inference",
+                  "omni",
+                  "routing-engine",
+                  "rust",
+                  "sglang",
+                  "tensorrt-llm",
+                  "vllm"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -475,12 +839,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI.",
+                "homepage": "https://kvcache-ai.github.io/Mooncake/",
                 "id": 819733173,
                 "language": "C++",
-                "last_commit": "2026-08-28T03:19:10Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T01:52:45Z",
+                "open_issues": 538,
                 "owner": "kvcache-ai",
                 "repo": "Mooncake",
-                "stars": 6415
+                "stars": 6427,
+                "topics": [
+                  "disaggregation",
+                  "inference",
+                  "kvcache",
+                  "llm",
+                  "rdma",
+                  "reinforcement-learning",
+                  "sglang",
+                  "tokenspeed",
+                  "trt-llm",
+                  "vllm"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -491,12 +871,36 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A GPU cluster manager for high-performance AI model serving (vLLM, SGLang) and on-demand SSH-accessible GPU instances.",
+                "homepage": "https://gpustack.ai",
                 "id": 799049436,
                 "language": "Python",
-                "last_commit": "2026-08-28T03:59:18Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T09:23:02Z",
+                "open_issues": 696,
                 "owner": "gpustack",
                 "repo": "gpustack",
-                "stars": 5567
+                "stars": 5572,
+                "topics": [
+                  "ascend",
+                  "cuda",
+                  "deepseek",
+                  "distributed-inference",
+                  "genai",
+                  "high-performance-inference",
+                  "inference",
+                  "llama",
+                  "llm",
+                  "llm-inference",
+                  "llm-serving",
+                  "maas",
+                  "mindie",
+                  "openai",
+                  "qwen",
+                  "rocm",
+                  "sglang",
+                  "vllm"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -507,12 +911,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Achieve state of the art inference performance with modern accelerators on Kubernetes",
+                "homepage": "https://www.llm-d.ai",
                 "id": 975070903,
                 "language": "Shell",
-                "last_commit": "2026-08-28T06:00:33Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T03:10:45Z",
+                "open_issues": 229,
                 "owner": "llm-d",
                 "repo": "llm-d",
-                "stars": 4248
+                "stars": 4309,
+                "topics": [
+                  "ai",
+                  "cncf",
+                  "distributed-inference",
+                  "gpu",
+                  "inference",
+                  "intelligent-routing",
+                  "kubernetes",
+                  "llm",
+                  "model-server"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             }
@@ -530,12 +949,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
+                "homepage": "https://lmcache.ai/",
                 "id": 807305060,
                 "language": "Python",
-                "last_commit": "2026-08-28T02:46:24Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T01:14:31Z",
+                "open_issues": 595,
                 "owner": "LMCache",
                 "repo": "LMCache",
-                "stars": 11522
+                "stars": 11552,
+                "topics": [
+                  "amd",
+                  "cuda",
+                  "fast",
+                  "inference",
+                  "kv-cache",
+                  "llm",
+                  "pytorch",
+                  "rocm",
+                  "speed",
+                  "vllm"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -546,12 +981,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
+                "homepage": null,
                 "id": 1281315781,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-07-09T04:37:14Z",
+                "open_issues": 60,
                 "owner": "deepseek-ai",
                 "repo": "DeepSpec",
-                "stars": 7045
+                "stars": 7049,
+                "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -562,12 +1002,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Cost-efficient and pluggable Infrastructure components for GenAI inference",
+                "homepage": null,
                 "id": 813348592,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T15:08:11Z",
+                "open_issues": 382,
                 "owner": "vllm-project",
                 "repo": "aibrix",
-                "stars": 5042
+                "stars": 5043,
+                "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -578,12 +1023,20 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM",
+                "homepage": "https://docs.vllm.ai/projects/llm-compressor",
                 "id": 817962136,
                 "language": "Python",
-                "last_commit": "2026-08-28T00:29:48Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T16:58:15Z",
+                "open_issues": 139,
                 "owner": "vllm-project",
                 "repo": "llm-compressor",
-                "stars": 3734
+                "stars": 3735,
+                "topics": [
+                  "compression",
+                  "quantization"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -594,12 +1047,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+                "homepage": "https://nvidia.github.io/Model-Optimizer/",
                 "id": 790916393,
                 "language": "Python",
-                "last_commit": "2026-08-28T03:20:20Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T01:34:40Z",
+                "open_issues": 372,
                 "owner": "NVIDIA",
                 "repo": "Model-Optimizer",
-                "stars": 3500
+                "stars": 3521,
+                "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -610,12 +1068,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "[Neurips 2025] R-KV: Redundancy-aware KV Cache Compression for Reasoning Models",
+                "homepage": "https://zefan-cai.github.io/R-KV.page/",
                 "id": 992765151,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2026-07-20T04:54:05Z",
+                "open_issues": 4,
                 "owner": "Zefan-Cai",
                 "repo": "R-KV",
-                "stars": 1209
+                "stars": 1209,
+                "topics": [
+                  "kvcache",
+                  "llm",
+                  "reasoning-models"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -626,12 +1093,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "LLM KV cache compression made easy",
+                "homepage": null,
                 "id": 884452470,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-18T10:31:20Z",
+                "open_issues": 10,
                 "owner": "NVIDIA",
                 "repo": "kvpress",
-                "stars": 1195
+                "stars": 1196,
+                "topics": [
+                  "inference",
+                  "kv-cache",
+                  "kv-cache-compression",
+                  "large-language-models",
+                  "llm",
+                  "long-context",
+                  "python",
+                  "pytorch",
+                  "transformers"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -642,12 +1124,34 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Virtualized Elastic KV Cache for Dynamic GPU Sharing and Beyond",
+                "homepage": null,
                 "id": 991482082,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-23T05:24:49Z",
+                "open_issues": 108,
                 "owner": "ovg-project",
                 "repo": "kvcached",
-                "stars": 1144
+                "stars": 1145,
+                "topics": [
+                  "elastic-kvcache",
+                  "gpu-mutiplexing",
+                  "gpu-sharing",
+                  "inference-engine",
+                  "kvcache",
+                  "kvcache-optimization",
+                  "kvcached",
+                  "llm",
+                  "llm-framework",
+                  "llm-inference",
+                  "llm-serving",
+                  "ollama",
+                  "online-offline-coserve",
+                  "serverless",
+                  "sglang",
+                  "vllm"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -658,12 +1162,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "From-scratch PyTorch implementation of Google's TurboQuant (ICLR 2026) for LLM KV cache compression. 5x compression at 3-bit with 99.5% attention fidelity.",
+                "homepage": null,
                 "id": 1191408729,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-04-23T19:45:18Z",
+                "open_issues": 17,
                 "owner": "tonbistudio",
                 "repo": "turboquant-pytorch",
-                "stars": 1040
+                "stars": 1040,
+                "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -674,12 +1183,20 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "[NeurIPS'25 Oral] Query-agnostic KV cache eviction: 3–4× reduction in memory and 2× decrease in latency (Qwen3/2.5, Gemma3, LLaMA3)",
+                "homepage": null,
                 "id": 991826061,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-02-11T05:54:19Z",
+                "open_issues": 4,
                 "owner": "snu-mllab",
                 "repo": "KVzip",
-                "stars": 224
+                "stars": 224,
+                "topics": [
+                  "kv-cache-compression",
+                  "large-language-models"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             }
@@ -697,12 +1214,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Fast inference from large lauguage models via speculative decoding",
+                "homepage": null,
                 "id": 679045986,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2024-08-22T03:34:29Z",
+                "open_issues": 9,
                 "owner": "feifeibear",
                 "repo": "LLMSpeculativeSampling",
-                "stars": 925
+                "stars": 925,
+                "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -713,12 +1235,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "📰 Must-read papers on KV Cache Compression (constantly updating 🤗).",
+                "homepage": null,
                 "id": 832441513,
                 "language": null,
+                "license": "MIT",
                 "last_commit": "2026-08-16T11:38:21Z",
+                "open_issues": 4,
                 "owner": "October2001",
                 "repo": "Awesome-KV-Cache-Compression",
-                "stars": 737
+                "stars": 737,
+                "topics": [
+                  "awesome-list",
+                  "large-language-models",
+                  "papers"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             }
@@ -736,12 +1267,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A compact implementation of SGLang, designed to demystify the complexities of modern LLM serving systems.",
+                "homepage": null,
                 "id": 1048705942,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-05-17T12:37:42Z",
+                "open_issues": 50,
                 "owner": "sgl-project",
                 "repo": "mini-sglang",
-                "stars": 4888
+                "stars": 4896,
+                "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -752,12 +1288,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "learn LLM inference system on Apple Silicon for systems engineers: build a tiny vLLM + Qwen",
+                "homepage": "https://skyzh.github.io/tiny-llm/",
                 "id": 969286259,
                 "language": "Python",
-                "last_commit": "2026-08-26T09:55:57Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T13:04:13Z",
+                "open_issues": 8,
                 "owner": "skyzh",
                 "repo": "tiny-llm",
-                "stars": 4525
+                "stars": 4528,
+                "topics": [
+                  "course",
+                  "large-language-model",
+                  "llm",
+                  "python",
+                  "qwen",
+                  "serving",
+                  "vllm"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             }
@@ -779,12 +1328,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Playwright MCP server",
+            "homepage": "https://www.npmjs.com/package/@playwright/mcp",
             "id": 952688112,
             "language": "TypeScript",
-            "last_commit": "2026-08-27T23:15:08Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-28T22:44:41Z",
+            "open_issues": 4,
             "owner": "microsoft",
             "repo": "playwright-mcp",
-            "stars": 36560
+            "stars": 36592,
+            "topics": [
+              "mcp",
+              "playwright"
+            ]
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
         },
@@ -795,12 +1352,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Browser automation CLI for AI agents",
+            "homepage": "https://agent-browser.dev",
             "id": 1132001614,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-26T23:52:15Z",
+            "open_issues": 672,
             "owner": "vercel-labs",
             "repo": "agent-browser",
-            "stars": 41456
+            "stars": 41514,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
         },
@@ -811,12 +1373,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Lightpanda: the headless browser designed for AI and automation",
+            "homepage": "https://lightpanda.io",
             "id": 598667202,
             "language": "Zig",
-            "last_commit": "2026-08-28T04:54:32Z",
+            "license": "AGPL-3.0",
+            "last_commit": "2026-08-29T03:43:06Z",
+            "open_issues": 102,
             "owner": "lightpanda-io",
             "repo": "browser",
-            "stars": 34285
+            "stars": 34301,
+            "topics": [
+              "browser",
+              "browser-automation",
+              "cdp",
+              "headless",
+              "lightpanda",
+              "playwright",
+              "puppeteer",
+              "zig"
+            ]
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
         },
@@ -829,12 +1405,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+                "homepage": "https://browser-use.com",
                 "id": 881458615,
                 "language": "Python",
-                "last_commit": "2026-08-28T03:42:29Z",
+                "license": "MIT",
+                "last_commit": "2026-08-29T02:08:30Z",
+                "open_issues": 386,
                 "owner": "browser-use",
                 "repo": "browser-use",
-                "stars": 111506
+                "stars": 111591,
+                "topics": [
+                  "ai-agents",
+                  "ai-tools",
+                  "browser-automation",
+                  "browser-use",
+                  "llm",
+                  "playwright",
+                  "python"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -845,12 +1434,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "An MCP server wrapper for reducing tokens consumed by MCP tools, available in typescript, python, and rust",
+                "homepage": null,
                 "id": 1172166954,
                 "language": "Rust",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T00:42:44Z",
+                "open_issues": 4,
                 "owner": "atlassian-labs",
                 "repo": "mcp-compressor",
-                "stars": 115
+                "stars": 115,
+                "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             }
@@ -872,12 +1466,37 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 ",
+            "homepage": "https://langfuse.com",
             "id": 642497346,
             "language": "TypeScript",
-            "last_commit": "2026-08-28T06:08:25Z",
+            "license": "NOASSERTION",
+            "last_commit": "2026-08-29T03:13:21Z",
+            "open_issues": 856,
             "owner": "langfuse",
             "repo": "langfuse",
-            "stars": 33833
+            "stars": 33871,
+            "topics": [
+              "analytics",
+              "autogen",
+              "evaluation",
+              "langchain",
+              "large-language-models",
+              "llama-index",
+              "llm",
+              "llm-evaluation",
+              "llm-observability",
+              "llmops",
+              "monitoring",
+              "observability",
+              "open-source",
+              "openai",
+              "playground",
+              "prompt-engineering",
+              "prompt-management",
+              "self-hosted",
+              "ycombinator"
+            ]
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
         },
@@ -888,12 +1507,36 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
+            "homepage": "https://mlflow.org",
             "id": 136202695,
             "language": "Python",
-            "last_commit": "2026-08-28T05:58:01Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-28T16:11:46Z",
+            "open_issues": 2057,
             "owner": "mlflow",
             "repo": "mlflow",
-            "stars": 27701
+            "stars": 27719,
+            "topics": [
+              "agentops",
+              "agents",
+              "ai",
+              "ai-governance",
+              "apache-spark",
+              "evaluation",
+              "langchain",
+              "llm-evaluation",
+              "llmops",
+              "machine-learning",
+              "ml",
+              "mlflow",
+              "mlops",
+              "model-management",
+              "observability",
+              "open-source",
+              "openai",
+              "prompt-engineering"
+            ]
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
         },
@@ -904,12 +1547,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "tiktoken is a fast BPE tokeniser for use with OpenAI's models.",
+            "homepage": null,
             "id": 573203730,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-08-17T05:25:57Z",
+            "open_issues": 128,
             "owner": "openai",
             "repo": "tiktoken",
-            "stars": 19108
+            "stars": 19114,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
         },
@@ -920,12 +1568,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "npx ccusage",
+            "homepage": "https://ccusage.com/",
             "id": 992755069,
             "language": "Rust",
-            "last_commit": "2026-08-28T03:06:07Z",
+            "license": "NOASSERTION",
+            "last_commit": "2026-08-29T01:04:39Z",
+            "open_issues": 48,
             "owner": "ccusage",
             "repo": "ccusage",
-            "stars": 18203
+            "stars": 18216,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
         },
@@ -936,12 +1589,36 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Open-source observability for your GenAI or LLM application, based on OpenTelemetry",
+            "homepage": "https://www.traceloop.com/openllmetry",
             "id": 686364232,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-10T08:49:01Z",
+            "open_issues": 658,
             "owner": "traceloop",
             "repo": "openllmetry",
-            "stars": 7405
+            "stars": 7405,
+            "topics": [
+              "artifical-intelligence",
+              "datascience",
+              "generative-ai",
+              "good-first-issue",
+              "good-first-issues",
+              "help-wanted",
+              "llm",
+              "llmops",
+              "metrics",
+              "ml",
+              "model-monitoring",
+              "monitoring",
+              "observability",
+              "open-source",
+              "open-telemetry",
+              "opentelemetry",
+              "opentelemetry-python",
+              "python"
+            ]
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
         },
@@ -952,12 +1629,37 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓",
+            "homepage": "https://www.helicone.ai",
             "id": 595832198,
             "language": "TypeScript",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-26T00:04:40Z",
+            "open_issues": 155,
             "owner": "Helicone",
             "repo": "helicone",
-            "stars": 6106
+            "stars": 6109,
+            "topics": [
+              "agent-monitoring",
+              "analytics",
+              "evaluation",
+              "gpt",
+              "langchain",
+              "large-language-models",
+              "llama-index",
+              "llm",
+              "llm-cost",
+              "llm-evaluation",
+              "llm-observability",
+              "llmops",
+              "monitoring",
+              "open-source",
+              "openai",
+              "playground",
+              "prompt-engineering",
+              "prompt-management",
+              "ycombinator"
+            ]
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
         },
@@ -968,12 +1670,35 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks including CrewAI, Agno, OpenAI Agents SDK, Langchain, Autogen, AG2, and CamelAI",
+            "homepage": "https://agentops.ai",
             "id": 679017521,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-06-25T08:25:03Z",
+            "open_issues": 172,
             "owner": "AgentOps-AI",
             "repo": "agentops",
-            "stars": 5801
+            "stars": 5803,
+            "topics": [
+              "agent",
+              "agentops",
+              "agents-sdk",
+              "ai",
+              "anthropic",
+              "autogen",
+              "cost-estimation",
+              "crewai",
+              "evals",
+              "evaluation-metrics",
+              "groq",
+              "langchain",
+              "llm",
+              "mistral",
+              "ollama",
+              "openai",
+              "openai-agents"
+            ]
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
         },
@@ -984,12 +1709,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Easy token price estimates for 400+ LLMs. TokenOps.",
+            "homepage": "https://agentops.ai",
             "id": 726692169,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2025-09-05T08:10:10Z",
+            "open_issues": 31,
             "owner": "AgentOps-AI",
             "repo": "tokencost",
-            "stars": 2004
+            "stars": 2004,
+            "topics": [
+              "analytics",
+              "claude",
+              "large-language-models",
+              "llm",
+              "observability",
+              "openai",
+              "price",
+              "price-tracker",
+              "token",
+              "tokenization"
+            ]
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
         },
@@ -1000,12 +1741,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The fastest, lightest, and easiest-to-integrate AI gateway on the market. Fully open-sourced.",
+            "homepage": "https://docs.helicone.ai/ai-gateway",
             "id": 966372868,
             "language": "Rust",
+            "license": "GPL-3.0",
             "last_commit": "2025-11-21T01:25:55Z",
+            "open_issues": 13,
             "owner": "Helicone",
             "repo": "ai-gateway",
-            "stars": 625
+            "stars": 626,
+            "topics": [
+              "ai",
+              "cache",
+              "gateway",
+              "llm",
+              "llms",
+              "load-balancing",
+              "observability",
+              "rate-limiting"
+            ]
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
         },
@@ -1016,12 +1771,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Open Source AI Tracing Framework built on Opentelemetry for AI Applications and Frameworks",
+            "homepage": "https://app.futureagi.com",
             "id": 966544022,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-27T11:55:50Z",
+            "open_issues": 11,
             "owner": "future-agi",
             "repo": "traceAI",
-            "stars": 218
+            "stars": 218,
+            "topics": [
+              "ai",
+              "ai-agents",
+              "langchain",
+              "large-language-models",
+              "observability",
+              "openai",
+              "opentelemetry",
+              "tracing"
+            ]
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
         },
@@ -1032,12 +1801,33 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Local-first Rust TUI/CLI for auditing AI coding-agent sessions: cost, tokens, latency, failures, and health｜本地优先 Rust TUI/CLI，审计 AI 编程 Agent 会话的成本、Token、延迟、失败与健康度",
+            "homepage": "https://github.com/luoyuctl/agenttrace",
             "id": 1226187070,
             "language": "Rust",
+            "license": "MIT",
             "last_commit": "2026-08-24T01:09:37Z",
+            "open_issues": 7,
             "owner": "luoyuctl",
             "repo": "agenttrace",
-            "stars": 123
+            "stars": 124,
+            "topics": [
+              "ai-agent-observability",
+              "ai-agents",
+              "ai-cost-tracking",
+              "claude-code",
+              "codex-cli",
+              "coding-agent",
+              "cursor",
+              "gemini-cli",
+              "opencode",
+              "qwen-code",
+              "rust",
+              "rust-cli",
+              "session-history",
+              "token-usage",
+              "tui"
+            ]
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
         }
@@ -1056,12 +1846,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A curated list for Efficient Large Language Models",
+                "homepage": null,
                 "id": 643793540,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2025-06-17T02:35:25Z",
+                "open_issues": 11,
                 "owner": "horseee",
                 "repo": "Awesome-Efficient-LLM",
-                "stars": 2036
+                "stars": 2036,
+                "topics": [
+                  "compression",
+                  "efficient-llm",
+                  "knowledge-distillation",
+                  "language-model",
+                  "llm",
+                  "llm-compression",
+                  "model-quantization",
+                  "pruning-algorithms"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -1072,12 +1876,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A curated list of materials on AI efficiency",
+                "homepage": null,
                 "id": 930270072,
                 "language": null,
+                "license": "MIT",
                 "last_commit": "2026-08-06T14:38:11Z",
+                "open_issues": 3,
                 "owner": "PrunaAI",
                 "repo": "awesome-ai-efficiency",
-                "stars": 234
+                "stars": 234,
+                "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             },
@@ -1088,12 +1897,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "One-liner for AI solo developers to fasten the security bolts on their systems",
+                "homepage": null,
                 "id": 1220229610,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2026-08-24T08:11:32Z",
+                "open_issues": 1,
                 "owner": "pleasedodisturb",
                 "repo": "llm-safe-haven",
-                "stars": 5
+                "stars": 5,
+                "topics": [
+                  "agent-security",
+                  "ai-security",
+                  "claude-code",
+                  "cursor",
+                  "hardening",
+                  "llm-security",
+                  "mcp-security",
+                  "prompt-injection",
+                  "security-tools",
+                  "windsurf"
+                ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
             }
@@ -1107,15 +1932,41 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T06:10:43.673Z",
+    "last_updated": "2026-08-29T03:44:28.740Z",
     "original_repository_info": {
       "archived": false,
+      "description": "A curated list of strategies, tools, papers, and resources for reducing LLM token costs and improving efficiency in production.",
+      "homepage": null,
       "id": 1211661982,
       "language": null,
+      "license": "NOASSERTION",
       "last_commit": "2026-08-23T09:14:26Z",
+      "open_issues": 6,
       "owner": "pleasedodisturb",
       "repo": "awesome-llm-token-optimization",
-      "stars": 63
+      "stars": 63,
+      "topics": [
+        "ai",
+        "awesome",
+        "awesome-list",
+        "claude",
+        "context-window",
+        "cost-optimization",
+        "generative-ai",
+        "inference-optimization",
+        "kv-cache",
+        "large-language-models",
+        "llm",
+        "llm-cost",
+        "machine-learning",
+        "model-routing",
+        "openai",
+        "prompt-caching",
+        "prompt-compression",
+        "prompt-engineering",
+        "token-efficiency",
+        "token-optimization"
+      ]
     },
     "original_repository_sha": "37a8f0383e3bcc3d655712ea38a122bebf2c2202",
     "enhanced_repository": "enhansome/enhansome-llm-token-optimization",
