@@ -67,7 +67,7 @@ Structure prompts so the system prompt + user profile is the first \~2,000 token
 
 50% discounts for non-time-critical requests. Combine with caching for 95% savings.
 
-* [Curator](https://github.com/bespokelabsai/curator) ⭐ 1,727 | 🐛 74 | 🌐 Python | 📅 2026-09-02 - Batch-inference and synthetic-data library; `batch=True` gives \~50% savings across OpenAI/Anthropic/Gemini/Mistral with built-in caching and retries. ![Stars](https://img.shields.io/github/stars/bespokelabsai/curator)
+* [Curator](https://github.com/bespokelabsai/curator) ⭐ 1,729 | 🐛 74 | 🌐 Python | 📅 2026-09-02 - Batch-inference and synthetic-data library; `batch=True` gives \~50% savings across OpenAI/Anthropic/Gemini/Mistral with built-in caching and retries. ![Stars](https://img.shields.io/github/stars/bespokelabsai/curator)
 * [Anthropic Message Batches](https://docs.anthropic.com/en/api/creating-message-batches) - Up to 10,000 requests, 24hr turnaround.
 * [Anthropic Batches Announcement](https://www.anthropic.com/news/message-batches-api) - Use cases and GA details.
 * [OpenAI Batch API](https://platform.openai.com/docs/guides/batch) - 50% discount, 50K requests per file.
@@ -81,12 +81,12 @@ Route simple tasks to cheaper models. 80% of typical LLM calls don't need the mo
 
 ### Frameworks
 
-* [LiteLLM](https://github.com/BerriAI/litellm) ⭐ 58,465 | 🐛 4,998 | 🌐 Python | 📅 2026-09-11 - SDK + proxy for 100+ LLMs with routing, cost tracking. Strategies: least-busy, cost-based, latency-based. ![Stars](https://img.shields.io/github/stars/BerriAI/litellm)
-* [Portkey AI Gateway](https://github.com/Portkey-AI/gateway) ⭐ 12,958 | 🐛 262 | 🌐 TypeScript | 📅 2026-05-25 - Open-source AI gateway routing to 1,600+ LLMs with guardrails, caching, and load balancing. Acquired by Palo Alto Networks (May 2026); gateway remains open-source under Apache 2.0. ![Stars](https://img.shields.io/github/stars/Portkey-AI/gateway)
-* [Bifrost](https://github.com/maximhq/bifrost) ⭐ 7,957 | 🐛 1,011 | 🌐 Go | 📅 2026-09-10 - 50x faster than LiteLLM; adaptive load balancer, 1000+ models. ![Stars](https://img.shields.io/github/stars/maximhq/bifrost)
-* [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) ⭐ 5,722 | 🐛 537 | 🌐 Go | 📅 2026-09-10 - System-level signal-driven router for Mixture-of-Models across cloud, data center, and edge. v0.3 "Themis" (June 2026); SAAR adds session-aware model selection cutting model switches 79% in multi-agent deployments. ![Stars](https://img.shields.io/github/stars/vllm-project/semantic-router)
-* [RouteLLM](https://github.com/lm-sys/RouteLLM) ⭐ 5,473 | 🐛 41 | 🌐 Python | 📅 2024-08-10 - Open-source LLM router by LMSYS. Trains routers from preference data; 2x+ cost reduction. **Note: last commit Aug 2024; LMSYS team shifted focus to Chatbot Arena.** ![Stars](https://img.shields.io/github/stars/lm-sys/RouteLLM)
-* [LLMRouter](https://github.com/ulab-uiuc/LLMRouter) ⭐ 2,818 | 🐛 40 | 🌐 Python | 📅 2026-09-09 - Open-source routing library with 16+ routers (single-round, multi-turn, agentic, personalized) and a unified CLI. ![Stars](https://img.shields.io/github/stars/ulab-uiuc/LLMRouter)
+* [LiteLLM](https://github.com/BerriAI/litellm) ⭐ 58,537 | 🐛 5,052 | 🌐 Python | 📅 2026-09-12 - SDK + proxy for 100+ LLMs with routing, cost tracking. Strategies: least-busy, cost-based, latency-based. ![Stars](https://img.shields.io/github/stars/BerriAI/litellm)
+* [Portkey AI Gateway](https://github.com/Portkey-AI/gateway) ⭐ 12,967 | 🐛 262 | 🌐 TypeScript | 📅 2026-05-25 - Open-source AI gateway routing to 1,600+ LLMs with guardrails, caching, and load balancing. Acquired by Palo Alto Networks (May 2026); gateway remains open-source under Apache 2.0. ![Stars](https://img.shields.io/github/stars/Portkey-AI/gateway)
+* [Bifrost](https://github.com/maximhq/bifrost) ⭐ 7,987 | 🐛 1,013 | 🌐 Go | 📅 2026-09-11 - 50x faster than LiteLLM; adaptive load balancer, 1000+ models. ![Stars](https://img.shields.io/github/stars/maximhq/bifrost)
+* [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) ⭐ 5,741 | 🐛 551 | 🌐 Go | 📅 2026-09-11 - System-level signal-driven router for Mixture-of-Models across cloud, data center, and edge. v0.3 "Themis" (June 2026); SAAR adds session-aware model selection cutting model switches 79% in multi-agent deployments. ![Stars](https://img.shields.io/github/stars/vllm-project/semantic-router)
+* [RouteLLM](https://github.com/lm-sys/RouteLLM) ⭐ 5,477 | 🐛 41 | 🌐 Python | 📅 2024-08-10 - Open-source LLM router by LMSYS. Trains routers from preference data; 2x+ cost reduction. **Note: last commit Aug 2024; LMSYS team shifted focus to Chatbot Arena.** ![Stars](https://img.shields.io/github/stars/lm-sys/RouteLLM)
+* [LLMRouter](https://github.com/ulab-uiuc/LLMRouter) ⭐ 2,834 | 🐛 40 | 🌐 Python | 📅 2026-09-09 - Open-source routing library with 16+ routers (single-round, multi-turn, agentic, personalized) and a unified CLI. ![Stars](https://img.shields.io/github/stars/ulab-uiuc/LLMRouter)
 * [NotDiamond](https://github.com/Not-Diamond/notdiamond-python) ⚠️ Archived - Per-query best-model selection. **Note: the Python SDK was archived Dec 2025 (read-only); the [notdiamond.ai](https://www.notdiamond.ai/) service remains active.** ![Stars](https://img.shields.io/github/stars/Not-Diamond/notdiamond-python)
 * [OpenRouter](https://openrouter.ai/docs/quickstart) - Unified API for 300+ models with [auto-router](https://openrouter.ai/docs/guides/routing/routers/auto-router).
 * [Martian Router](https://route.withmartian.com/) - Patent-pending; cuts costs 20-97% via "Model Mapping".
@@ -109,13 +109,13 @@ Reduce prompt size while preserving information quality.
 
 ### Tools
 
-* [RTK](https://github.com/rtk-ai/rtk) ⭐ 79,844 | 🐛 1,863 | 🌐 Rust | 📅 2026-09-10 - Single-binary Rust CLI proxy that compresses dev-command output 60-90% before it reaches a coding agent's context. Works with Claude Code, Cursor, Copilot, Gemini CLI. ![Stars](https://img.shields.io/github/stars/rtk-ai/rtk)
-* [Headroom](https://github.com/chopratejas/headroom) ⭐ 71,370 | 🐛 642 | 🌐 Python | 📅 2026-09-10 - Compress tool outputs, logs, files, and RAG chunks before they reach the LLM (60-95% fewer tokens); library, proxy, and MCP server. Claude Code/Cursor/Aider compatible.
-* [TOON](https://github.com/toon-format/toon) ⭐ 25,353 | 🐛 5 | 🌐 TypeScript | 📅 2026-09-03 - Token-Oriented Object Notation: a compact, schema-aware encoding for passing JSON-like data to LLMs; 30-60% fewer tokens than JSON on uniform arrays of objects. ![Stars](https://img.shields.io/github/stars/toon-format/toon)
-* [code2prompt](https://github.com/mufeedvh/code2prompt) ⭐ 7,646 | 🐛 14 | 🌐 Rust | 📅 2026-09-07 - Codebase to LLM prompt with token counting. ![Stars](https://img.shields.io/github/stars/mufeedvh/code2prompt)
-* [LLMLingua](https://github.com/microsoft/LLMLingua) ⭐ 6,646 | 🐛 121 | 🌐 Python | 📅 2026-09-10 - Up to 20x compression. Coarse-to-fine iterative method. Integrates with LangChain/LlamaIndex. ![Stars](https://img.shields.io/github/stars/microsoft/LLMLingua)
-* [lean-ctx](https://github.com/yvgude/lean-ctx) ⭐ 3,761 | 🐛 9 | 🌐 Rust | 📅 2026-09-10 - Rust binary context intelligence layer for AI coding agents; 60-90% fewer tokens via shell-output compression and 10 cached-read modes; MCP server with 76 tools and cross-session memory. Works with Claude Code, Cursor, Copilot, Windsurf, Gemini CLI, and 30+ others. ![Stars](https://img.shields.io/github/stars/yvgude/lean-ctx)
-* [llmtrim](https://github.com/fkiene/llmtrim) ⭐ 230 | 🐛 11 | 🌐 Rust | 📅 2026-09-08 - Quality-gated local proxy and MCP server that compresses prompts, tool outputs, and replies before they reach the LLM, reverting any step that doesn't save tokens (project-reported -31% input / -74% output across 112 A/B cases). Rust CLI plus multi-language library bindings and a WebAssembly/JS package. ![Stars](https://img.shields.io/github/stars/fkiene/llmtrim)
+* [RTK](https://github.com/rtk-ai/rtk) ⭐ 80,001 | 🐛 1,865 | 🌐 Rust | 📅 2026-09-11 - Single-binary Rust CLI proxy that compresses dev-command output 60-90% before it reaches a coding agent's context. Works with Claude Code, Cursor, Copilot, Gemini CLI. ![Stars](https://img.shields.io/github/stars/rtk-ai/rtk)
+* [Headroom](https://github.com/chopratejas/headroom) ⭐ 71,598 | 🐛 644 | 🌐 Python | 📅 2026-09-11 - Compress tool outputs, logs, files, and RAG chunks before they reach the LLM (60-95% fewer tokens); library, proxy, and MCP server. Claude Code/Cursor/Aider compatible.
+* [TOON](https://github.com/toon-format/toon) ⭐ 25,361 | 🐛 5 | 🌐 TypeScript | 📅 2026-09-03 - Token-Oriented Object Notation: a compact, schema-aware encoding for passing JSON-like data to LLMs; 30-60% fewer tokens than JSON on uniform arrays of objects. ![Stars](https://img.shields.io/github/stars/toon-format/toon)
+* [code2prompt](https://github.com/mufeedvh/code2prompt) ⭐ 7,651 | 🐛 16 | 🌐 Rust | 📅 2026-09-11 - Codebase to LLM prompt with token counting. ![Stars](https://img.shields.io/github/stars/mufeedvh/code2prompt)
+* [LLMLingua](https://github.com/microsoft/LLMLingua) ⭐ 6,647 | 🐛 121 | 🌐 Python | 📅 2026-09-10 - Up to 20x compression. Coarse-to-fine iterative method. Integrates with LangChain/LlamaIndex. ![Stars](https://img.shields.io/github/stars/microsoft/LLMLingua)
+* [lean-ctx](https://github.com/yvgude/lean-ctx) ⭐ 3,766 | 🐛 17 | 🌐 Rust | 📅 2026-09-11 - Rust binary context intelligence layer for AI coding agents; 60-90% fewer tokens via shell-output compression and 10 cached-read modes; MCP server with 76 tools and cross-session memory. Works with Claude Code, Cursor, Copilot, Windsurf, Gemini CLI, and 30+ others. ![Stars](https://img.shields.io/github/stars/yvgude/lean-ctx)
+* [llmtrim](https://github.com/fkiene/llmtrim) ⭐ 229 | 🐛 11 | 🌐 Rust | 📅 2026-09-08 - Quality-gated local proxy and MCP server that compresses prompts, tool outputs, and replies before they reach the LLM, reverting any step that doesn't save tokens (project-reported -31% input / -74% output across 112 A/B cases). Rust CLI plus multi-language library bindings and a WebAssembly/JS package. ![Stars](https://img.shields.io/github/stars/fkiene/llmtrim)
 
 ### Research
 
@@ -141,7 +141,7 @@ Rule-based lossless distillation achieves **3-4:1 compression** without any mode
 
 ### Key Research
 
-* [Context Rot toolkit (Chroma)](https://github.com/chroma-core/context-rot) ⭐ 303 | 🐛 2 | 🌐 Python | 📅 2025-09-03 - Toolkit reproducing how LLMs degrade well before context limits (18 models tested).
+* [Context Rot toolkit (Chroma)](https://github.com/chroma-core/context-rot) ⭐ 305 | 🐛 2 | 🌐 Python | 📅 2025-09-03 - Toolkit reproducing how LLMs degrade well before context limits (18 models tested).
 * [RAG vs Long Context (Elastic)](https://www.elastic.co/search-labs/blog/rag-vs-long-context-model-llm) - RAG is 1250x cheaper for many queries.
 * [Long Context RAG (Databricks)](https://www.databricks.com/blog/long-context-rag-performance-llms) - Degradation after 32K-64K tokens.
 * [Context Extension Survey](https://arxiv.org/abs/2402.02244) - All context extension techniques surveyed.
@@ -167,24 +167,24 @@ Server-side optimizations for inference efficiency.
 
 ### Inference Engines
 
-* [vLLM](https://github.com/vllm-project/vllm) ⭐ 91,441 | 🐛 7,849 | 🌐 Python | 📅 2026-09-10 - PagedAttention, high-throughput inference. ![Stars](https://img.shields.io/github/stars/vllm-project/vllm)
-* [SGLang](https://github.com/sgl-project/sglang) ⭐ 35,776 | 🐛 5,291 | 🌐 Python | 📅 2026-09-11 - RadixAttention for automatic KV cache reuse. ![Stars](https://img.shields.io/github/stars/sgl-project/sglang)
-* [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) ⭐ 8,020 | 🐛 1,472 | 🌐 Rust | 📅 2026-09-11 - Datacenter-scale distributed inference with KV-cache-aware routing and disaggregated prefill/decode; \~2x faster TTFT, 7x throughput/GPU. ![Stars](https://img.shields.io/github/stars/ai-dynamo/dynamo)
-* [Mooncake](https://github.com/kvcache-ai/Mooncake) ⭐ 6,550 | 🐛 568 | 🌐 C++ | 📅 2026-09-10 - Distributed KVCache engine (the serving platform behind Moonshot AI's Kimi); integrated into vLLM for high-bandwidth KV-cache transfer and cross-instance prefix reuse across disaggregated prefill/decode. ![Stars](https://img.shields.io/github/stars/kvcache-ai/Mooncake)
-* [GPUStack](https://github.com/gpustack/gpustack) ⭐ 5,660 | 🐛 685 | 🌐 Python | 📅 2026-09-10 - GPU cluster manager for vLLM/SGLang. ![Stars](https://img.shields.io/github/stars/gpustack/gpustack)
-* [llm-d](https://github.com/llm-d/llm-d) ⭐ 4,492 | 🐛 227 | 🌐 Shell | 📅 2026-09-10 - Kubernetes-native distributed serving with prefix-cache-aware routing and tiered KV offload to CPU/disk (3x output throughput). ![Stars](https://img.shields.io/github/stars/llm-d/llm-d)
+* [vLLM](https://github.com/vllm-project/vllm) ⭐ 91,525 | 🐛 7,908 | 🌐 Python | 📅 2026-09-11 - PagedAttention, high-throughput inference. ![Stars](https://img.shields.io/github/stars/vllm-project/vllm)
+* [SGLang](https://github.com/sgl-project/sglang) ⭐ 35,828 | 🐛 5,323 | 🌐 Python | 📅 2026-09-12 - RadixAttention for automatic KV cache reuse. ![Stars](https://img.shields.io/github/stars/sgl-project/sglang)
+* [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) ⭐ 8,034 | 🐛 1,477 | 🌐 Rust | 📅 2026-09-12 - Datacenter-scale distributed inference with KV-cache-aware routing and disaggregated prefill/decode; \~2x faster TTFT, 7x throughput/GPU. ![Stars](https://img.shields.io/github/stars/ai-dynamo/dynamo)
+* [Mooncake](https://github.com/kvcache-ai/Mooncake) ⭐ 6,555 | 🐛 565 | 🌐 C++ | 📅 2026-09-11 - Distributed KVCache engine (the serving platform behind Moonshot AI's Kimi); integrated into vLLM for high-bandwidth KV-cache transfer and cross-instance prefix reuse across disaggregated prefill/decode. ![Stars](https://img.shields.io/github/stars/kvcache-ai/Mooncake)
+* [GPUStack](https://github.com/gpustack/gpustack) ⭐ 5,674 | 🐛 687 | 🌐 Python | 📅 2026-09-10 - GPU cluster manager for vLLM/SGLang. ![Stars](https://img.shields.io/github/stars/gpustack/gpustack)
+* [llm-d](https://github.com/llm-d/llm-d) ⭐ 4,507 | 🐛 215 | 🌐 Shell | 📅 2026-09-11 - Kubernetes-native distributed serving with prefix-cache-aware routing and tiered KV offload to CPU/disk (3x output throughput). ![Stars](https://img.shields.io/github/stars/llm-d/llm-d)
 
 ### Compression Tools
 
-* [LMCache](https://github.com/LMCache/LMCache) ⭐ 11,745 | 🐛 700 | 🌐 Python | 📅 2026-09-10 - KV cache layer for vLLM/SGLang; offloads and reuses caches across engines (CPU/disk/S3) to cut TTFT for long-context, multi-turn, and RAG. ![Stars](https://img.shields.io/github/stars/LMCache/LMCache)
-* [DeepSpec](https://github.com/deepseek-ai/DeepSpec) ⭐ 7,099 | 🐛 65 | 🌐 Python | 📅 2026-07-09 - DeepSeek's open-source speculative decoding stack powering DSpark; 60-85% faster on V4-Flash, 57-78% on V4-Pro; outperforms Eagle-3. MIT license. ![Stars](https://img.shields.io/github/stars/deepseek-ai/DeepSpec)
-* [aibrix](https://github.com/vllm-project/aibrix) ⭐ 5,078 | 🐛 377 | 🌐 Go | 📅 2026-09-10 - Cost-efficient infrastructure for GenAI inference. ![Stars](https://img.shields.io/github/stars/vllm-project/aibrix)
-* [NVIDIA Model Optimizer](https://github.com/NVIDIA/Model-Optimizer) ⭐ 3,785 | 🐛 372 | 🌐 Python | 📅 2026-09-10 - Quantization, pruning, distillation, speculative decoding. ![Stars](https://img.shields.io/github/stars/NVIDIA/Model-Optimizer)
-* [llm-compressor](https://github.com/vllm-project/llm-compressor) ⭐ 3,773 | 🐛 127 | 🌐 Python | 📅 2026-09-11 - Compression for deployment with vLLM. ![Stars](https://img.shields.io/github/stars/vllm-project/llm-compressor)
-* [kvcached](https://github.com/ovg-project/kvcached) ⭐ 1,365 | 🐛 121 | 🌐 Python | 📅 2026-08-23 - Virtualized elastic KV cache decoupling virtual/physical GPU memory for dynamic GPU sharing; plugs into vLLM/SGLang. ![Stars](https://img.shields.io/github/stars/ovg-project/kvcached)
+* [LMCache](https://github.com/LMCache/LMCache) ⭐ 11,760 | 🐛 698 | 🌐 Python | 📅 2026-09-12 - KV cache layer for vLLM/SGLang; offloads and reuses caches across engines (CPU/disk/S3) to cut TTFT for long-context, multi-turn, and RAG. ![Stars](https://img.shields.io/github/stars/LMCache/LMCache)
+* [DeepSpec](https://github.com/deepseek-ai/DeepSpec) ⭐ 7,101 | 🐛 65 | 🌐 Python | 📅 2026-07-09 - DeepSeek's open-source speculative decoding stack powering DSpark; 60-85% faster on V4-Flash, 57-78% on V4-Pro; outperforms Eagle-3. MIT license. ![Stars](https://img.shields.io/github/stars/deepseek-ai/DeepSpec)
+* [aibrix](https://github.com/vllm-project/aibrix) ⭐ 5,083 | 🐛 374 | 🌐 Go | 📅 2026-09-11 - Cost-efficient infrastructure for GenAI inference. ![Stars](https://img.shields.io/github/stars/vllm-project/aibrix)
+* [NVIDIA Model Optimizer](https://github.com/NVIDIA/Model-Optimizer) ⭐ 3,792 | 🐛 378 | 🌐 Python | 📅 2026-09-12 - Quantization, pruning, distillation, speculative decoding. ![Stars](https://img.shields.io/github/stars/NVIDIA/Model-Optimizer)
+* [llm-compressor](https://github.com/vllm-project/llm-compressor) ⭐ 3,775 | 🐛 116 | 🌐 Python | 📅 2026-09-11 - Compression for deployment with vLLM. ![Stars](https://img.shields.io/github/stars/vllm-project/llm-compressor)
+* [kvcached](https://github.com/ovg-project/kvcached) ⭐ 1,366 | 🐛 118 | 🌐 Python | 📅 2026-09-11 - Virtualized elastic KV cache decoupling virtual/physical GPU memory for dynamic GPU sharing; plugs into vLLM/SGLang. ![Stars](https://img.shields.io/github/stars/ovg-project/kvcached)
 * [R-KV](https://github.com/Zefan-Cai/R-KV) ⭐ 1,212 | 🐛 4 | 🌐 Python | 📅 2026-07-20 - Redundancy-aware compression (NeurIPS 2025). ![Stars](https://img.shields.io/github/stars/Zefan-Cai/R-KV)
-* [NVIDIA kvpress](https://github.com/NVIDIA/kvpress) ⭐ 1,207 | 🐛 7 | 🌐 Python | 📅 2026-09-07 - KV cache compression made easy. ![Stars](https://img.shields.io/github/stars/NVIDIA/kvpress)
-* [TurboQuant](https://github.com/tonbistudio/turboquant-pytorch) ⭐ 1,045 | 🐛 17 | 🌐 Python | 📅 2026-04-23 - Google's ICLR 2026; 5x KV cache compression.
+* [NVIDIA kvpress](https://github.com/NVIDIA/kvpress) ⭐ 1,207 | 🐛 8 | 🌐 Python | 📅 2026-09-07 - KV cache compression made easy. ![Stars](https://img.shields.io/github/stars/NVIDIA/kvpress)
+* [TurboQuant](https://github.com/tonbistudio/turboquant-pytorch) ⭐ 1,044 | 🐛 17 | 🌐 Python | 📅 2026-04-23 - Google's ICLR 2026; 5x KV cache compression.
 * [KVzip](https://github.com/snu-mllab/KVzip) ⭐ 225 | 🐛 4 | 🌐 Python | 📅 2026-02-11 - Query-agnostic KV cache eviction via context reconstruction (NeurIPS 2025 Oral); 3-4x memory reduction, 2x lower latency. ![Stars](https://img.shields.io/github/stars/snu-mllab/KVzip)
 
 ### Research
@@ -196,19 +196,19 @@ Server-side optimizations for inference efficiency.
 
 ### Educational
 
-* [mini-sglang](https://github.com/sgl-project/mini-sglang) ⭐ 5,025 | 🐛 50 | 🌐 Python | 📅 2026-05-17 - Learn LLM serving internals.
-* [tiny-llm](https://github.com/skyzh/tiny-llm) ⭐ 4,557 | 🐛 7 | 🌐 Python | 📅 2026-09-09 - Build a tiny vLLM on Apple Silicon.
+* [mini-sglang](https://github.com/sgl-project/mini-sglang) ⭐ 5,027 | 🐛 51 | 🌐 Python | 📅 2026-05-17 - Learn LLM serving internals.
+* [tiny-llm](https://github.com/skyzh/tiny-llm) ⭐ 4,559 | 🐛 7 | 🌐 Python | 📅 2026-09-09 - Build a tiny vLLM on Apple Silicon.
 
 ## Browser Tool Efficiency
 
 Different browser automation approaches consume vastly different context.
 
-| Agent            | Output Size                     | Efficiency                                                                            | Link                                                                                                      |
-| ---------------- | ------------------------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| WebFetch         | \~1.5 KB (AI-summarized)        | **20x better**                                                                        | [Docs](https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool)                      |
-| Playwright MCP   | \~10-33 KB (accessibility tree) | Baseline                                                                              | [GitHub](https://github.com/microsoft/playwright-mcp) ⭐ 36,986 \| 🐛 11 \| 🌐 TypeScript \| 📅 2026-09-09 |
-| Agent Browser ⚠️ | \~28 KB (accessibility tree)    | Project unmaintained 2026-05 — superseded by browser-use direct mode + Playwright MCP | [GitHub](https://github.com/vercel-labs/agent-browser) ⭐ 42,373 \| 🐛 697 \| 🌐 Rust \| 📅 2026-09-10     |
-| Lightpanda       | \~16 KB (raw markdown)          | 2x better                                                                             | [GitHub](https://github.com/lightpanda-io/browser) ⭐ 35,268 \| 🐛 99 \| 🌐 Zig \| 📅 2026-09-10           |
+| Agent            | Output Size                     | Efficiency                                                                            | Link                                                                                                     |
+| ---------------- | ------------------------------- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| WebFetch         | \~1.5 KB (AI-summarized)        | **20x better**                                                                        | [Docs](https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool)                     |
+| Playwright MCP   | \~10-33 KB (accessibility tree) | Baseline                                                                              | [GitHub](https://github.com/microsoft/playwright-mcp) ⭐ 37,022 \| 🐛 2 \| 🌐 TypeScript \| 📅 2026-09-11 |
+| Agent Browser ⚠️ | \~28 KB (accessibility tree)    | Project unmaintained 2026-05 — superseded by browser-use direct mode + Playwright MCP | [GitHub](https://github.com/vercel-labs/agent-browser) ⭐ 42,431 \| 🐛 703 \| 🌐 Rust \| 📅 2026-09-11    |
+| Lightpanda       | \~16 KB (raw markdown)          | 2x better                                                                             | [GitHub](https://github.com/lightpanda-io/browser) ⭐ 35,286 \| 🐛 94 \| 🌐 Zig \| 📅 2026-09-12          |
 
 For 10-page workflows: WebFetch = \~15KB vs Playwright = \~330KB total context consumed.
 
@@ -218,24 +218,24 @@ The [accessibility tree](https://developer.mozilla.org/en-US/docs/Glossary/Acces
 
 ### Further Reading
 
-* [browser-use](https://github.com/browser-use/browser-use) ⭐ 114,081 | 🐛 426 | 🌐 Python | 📅 2026-09-10 - Foundation library for AI browser agents.
+* [browser-use](https://github.com/browser-use/browser-use) ⭐ 114,257 | 🐛 406 | 🌐 Python | 📅 2026-09-10 - Foundation library for AI browser agents.
 * [mcp-compressor](https://github.com/atlassian-labs/mcp-compressor) ⭐ 120 | 🐛 1 | 🌐 Rust | 📅 2026-09-08 - MCP proxy that shows a compressed tool surface first and fetches full schemas on demand, cutting tokens spent on large MCP tool descriptions. ![Stars](https://img.shields.io/github/stars/atlassian-labs/mcp-compressor)
 * [WebFetch vs WebSearch analysis](https://mikhail.io/2025/10/claude-code-web-tools/) - Deep comparison.
 * [Chrome full accessibility tree](https://developer.chrome.com/blog/full-accessibility-tree) - DevTools feature.
 
 ## Cost Tracking Tools
 
-* [Langfuse](https://github.com/langfuse/langfuse) ⭐ 34,448 | 🐛 926 | 🌐 TypeScript | 📅 2026-09-10 - Open-source LLM observability + cost tracking. [Cost tracking docs](https://langfuse.com/docs/observability/features/token-and-cost-tracking). Acquired by ClickHouse (Jan 2026); still actively developed, MIT-licensed. ![Stars](https://img.shields.io/github/stars/langfuse/langfuse)
-* [MLflow](https://github.com/mlflow/mlflow) ⭐ 27,905 | 🐛 2,088 | 🌐 Python | 📅 2026-09-11 - Open-source AI/ML platform with GenAI observability in MLflow 3.x: LLM call tracing with per-span token tracking, prompt optimization tooling, and AI Gateway integration for cost control. ![Stars](https://img.shields.io/github/stars/mlflow/mlflow)
-* [tiktoken](https://github.com/openai/tiktoken) ⭐ 19,220 | 🐛 130 | 🌐 Python | 📅 2026-08-17 - OpenAI's fast BPE tokenizer (Python/Rust), 3-6x faster.
-* [ccusage](https://github.com/ryoppippi/ccusage) ⭐ 18,481 | 🐛 24 | 🌐 Rust | 📅 2026-09-10 - Fast local CLI reporting tokens and cost across 14+ coding agents (Claude Code, Codex, Gemini CLI, Copilot); offline, no upload. ![Stars](https://img.shields.io/github/stars/ryoppippi/ccusage)
-* [OpenLLMetry](https://github.com/traceloop/openllmetry) ⭐ 7,428 | 🐛 676 | 🌐 Python | 📅 2026-08-10 - OpenTelemetry-based GenAI observability instrumenting LLM and vector-DB calls with per-call token and latency telemetry. ![Stars](https://img.shields.io/github/stars/traceloop/openllmetry)
-* [Helicone](https://github.com/Helicone/helicone) ⭐ 6,144 | 🐛 156 | 🌐 TypeScript | 📅 2026-08-31 - LLM observability, 300+ models, SOC 2. [Cost tracking cookbook](https://docs.helicone.ai/guides/cookbooks/cost-tracking). Acquired by Mintlify (Mar 2026); now maintenance-only — security/bug fixes and new-model support continue, no new feature work. ![Stars](https://img.shields.io/github/stars/Helicone/helicone)
-* [AgentOps](https://github.com/AgentOps-AI/agentops) ⭐ 5,816 | 🐛 179 | 🌐 Python | 📅 2026-06-25 - Agent monitoring with LLM cost tracking. ![Stars](https://img.shields.io/github/stars/AgentOps-AI/agentops)
+* [Langfuse](https://github.com/langfuse/langfuse) ⭐ 34,487 | 🐛 919 | 🌐 TypeScript | 📅 2026-09-11 - Open-source LLM observability + cost tracking. [Cost tracking docs](https://langfuse.com/docs/observability/features/token-and-cost-tracking). Acquired by ClickHouse (Jan 2026); still actively developed, MIT-licensed. ![Stars](https://img.shields.io/github/stars/langfuse/langfuse)
+* [MLflow](https://github.com/mlflow/mlflow) ⭐ 27,915 | 🐛 2,100 | 🌐 Python | 📅 2026-09-11 - Open-source AI/ML platform with GenAI observability in MLflow 3.x: LLM call tracing with per-span token tracking, prompt optimization tooling, and AI Gateway integration for cost control. ![Stars](https://img.shields.io/github/stars/mlflow/mlflow)
+* [tiktoken](https://github.com/openai/tiktoken) ⭐ 19,224 | 🐛 130 | 🌐 Python | 📅 2026-08-17 - OpenAI's fast BPE tokenizer (Python/Rust), 3-6x faster.
+* [ccusage](https://github.com/ryoppippi/ccusage) ⭐ 18,500 | 🐛 30 | 🌐 Rust | 📅 2026-09-11 - Fast local CLI reporting tokens and cost across 14+ coding agents (Claude Code, Codex, Gemini CLI, Copilot); offline, no upload. ![Stars](https://img.shields.io/github/stars/ryoppippi/ccusage)
+* [OpenLLMetry](https://github.com/traceloop/openllmetry) ⭐ 7,427 | 🐛 675 | 🌐 Python | 📅 2026-08-10 - OpenTelemetry-based GenAI observability instrumenting LLM and vector-DB calls with per-call token and latency telemetry. ![Stars](https://img.shields.io/github/stars/traceloop/openllmetry)
+* [Helicone](https://github.com/Helicone/helicone) ⭐ 6,149 | 🐛 155 | 🌐 TypeScript | 📅 2026-09-11 - LLM observability, 300+ models, SOC 2. [Cost tracking cookbook](https://docs.helicone.ai/guides/cookbooks/cost-tracking). Acquired by Mintlify (Mar 2026); now maintenance-only — security/bug fixes and new-model support continue, no new feature work. ![Stars](https://img.shields.io/github/stars/Helicone/helicone)
+* [AgentOps](https://github.com/AgentOps-AI/agentops) ⭐ 5,815 | 🐛 180 | 🌐 Python | 📅 2026-06-25 - Agent monitoring with LLM cost tracking. ![Stars](https://img.shields.io/github/stars/AgentOps-AI/agentops)
 * [tokencost](https://github.com/AgentOps-AI/tokencost) ⭐ 2,007 | 🐛 30 | 🌐 Python | 📅 2025-09-05 - USD cost estimates for 400+ LLMs. ![Stars](https://img.shields.io/github/stars/AgentOps-AI/tokencost)
 * [Helicone AI Gateway](https://github.com/Helicone/ai-gateway) ⭐ 628 | 🐛 13 | 🌐 Rust | 📅 2025-11-21 - Fastest open-source AI gateway (Rust). ![Stars](https://img.shields.io/github/stars/Helicone/ai-gateway)
 * [Future AGI traceAI](https://github.com/future-agi/traceAI) ⭐ 221 | 🐛 15 | 🌐 Python | 📅 2026-08-27 - OpenTelemetry-based AI tracing capturing per-call tokens, cost, and latency across 35+ frameworks. ![Stars](https://img.shields.io/github/stars/future-agi/traceAI)
-* [agenttrace](https://github.com/luoyuctl/agenttrace) ⭐ 131 | 🐛 8 | 🌐 Rust | 📅 2026-09-07 - Local-first TUI that reads Claude Code / Codex / Gemini / Aider / Cursor sessions to surface tokens, cost, cache use, retries, and latency. ![Stars](https://img.shields.io/github/stars/luoyuctl/agenttrace)
+* [agenttrace](https://github.com/luoyuctl/agenttrace) ⭐ 131 | 🐛 7 | 🌐 Rust | 📅 2026-09-11 - Local-first TUI that reads Claude Code / Codex / Gemini / Aider / Cursor sessions to surface tokens, cost, cache use, retries, and latency. ![Stars](https://img.shields.io/github/stars/luoyuctl/agenttrace)
 * [LiteLLM Spend Tracking](https://docs.litellm.ai/docs/proxy/cost_tracking) - Per-key/team spend tracking and [budget routing](https://docs.litellm.ai/docs/proxy/provider_budget_routing) for the LiteLLM proxy across 100+ LLMs. ![Stars](https://img.shields.io/github/stars/BerriAI/litellm)
 * [Anthropic Token Counter](https://docs.anthropic.com/en/api/messages-count-tokens) - Free pre-flight token counting endpoint.
 * [LangSmith Cost Tracking](https://docs.langchain.com/langsmith/cost-tracking) - Automatic recording with dashboards.
@@ -285,7 +285,7 @@ The [accessibility tree](https://developer.mozilla.org/en-US/docs/Glossary/Acces
 
 * [Anthropic Prompt Engineering](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) - Master guide.
 * [Anthropic Claude 4 Best Practices](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices) - Model-specific.
-* [Anthropic Interactive Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) ⭐ 38,119 | 🐛 65 | 🌐 Jupyter Notebook | 📅 2026-08-28 - 9-chapter course.
+* [Anthropic Interactive Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) ⭐ 38,137 | 🐛 65 | 🌐 Jupyter Notebook | 📅 2026-08-28 - 9-chapter course.
 * [Anthropic Tool Search](https://www.anthropic.com/engineering/advanced-tool-use) - 85% token reduction for large tool libraries.
 * [OpenAI Prompt Engineering](https://developers.openai.com/api/docs/guides/prompt-engineering) - Strategies and tactics.
 * [OpenAI Cost Optimization](https://developers.openai.com/api/docs/guides/cost-optimization) - Input minimization, model selection, caching.
@@ -460,4 +460,4 @@ The [accessibility tree](https://developer.mozilla.org/en-US/docs/Glossary/Acces
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-11._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-12._
