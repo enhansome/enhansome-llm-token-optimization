@@ -1,6 +1,256 @@
 {
   "items": [
     {
+      "description": "Hit list as of 2026-10-25: the best single levers, with verified savings and where each number comes from.\nCombined: these stack multiplicatively only where they touch the same tokens (batch x cache read = 95-98.75% off cached input on Anthropic). Published end-to-end results from teams applying several levers at once land at 40-62% (ProjectDiscovery 59%, GitHub 43-62%); 90%+ is realistic only for workloads dominated by repeated prefixes or exact-repeat queries. The earlier \"95-99%\" figure multiplied savings on different cost bases and is withdrawn.",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Anthropic Interactive Tutorial",
+              "description": "Retired: last commit Apr 2024, targets the retired Claude 3 Haiku repo",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Anthropic's Interactive Prompt Engineering Tutorial",
+                "homepage": null,
+                "id": 781022269,
+                "language": "Jupyter Notebook",
+                "license": null,
+                "last_commit": "2026-08-28T05:31:39Z",
+                "open_issues": 64,
+                "owner": "anthropics",
+                "repo": "prompt-eng-interactive-tutorial",
+                "stars": 38747,
+                "topics": []
+              },
+              "first_seen": "2026-10-26T00:27:32.927Z"
+            },
+            {
+              "node_type": "item",
+              "title": "tokencost",
+              "description": "Removed: last commit Sep 2025; its price table predates every model in the pricing table repo",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Easy token price estimates for 400+ LLMs. TokenOps.",
+                "homepage": "https://agentops.ai",
+                "id": 726692169,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2025-09-05T08:10:10Z",
+                "open_issues": 31,
+                "owner": "AgentOps-AI",
+                "repo": "tokencost",
+                "stars": 2005,
+                "topics": [
+                  "analytics",
+                  "claude",
+                  "large-language-models",
+                  "llm",
+                  "observability",
+                  "openai",
+                  "price",
+                  "price-tracker",
+                  "token",
+                  "tokenization"
+                ]
+              },
+              "first_seen": "2026-08-28T06:10:43.673Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Helicone AI Gateway, \"fastest open-source AI gateway\"",
+              "description": "Removed: relicensed Apache-2.0 to GPL-3.0 on Nov 21, 2025 with no commits since LICENSE",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "The fastest, lightest, and easiest-to-integrate AI gateway on the market. Fully open-sourced.",
+                "homepage": "https://docs.helicone.ai/ai-gateway",
+                "id": 966372868,
+                "language": "Rust",
+                "license": "GPL-3.0",
+                "last_commit": "2025-11-21T01:25:55Z",
+                "open_issues": 13,
+                "owner": "Helicone",
+                "repo": "ai-gateway",
+                "stars": 639,
+                "topics": [
+                  "ai",
+                  "cache",
+                  "gateway",
+                  "llm",
+                  "llms",
+                  "load-balancing",
+                  "observability",
+                  "rate-limiting"
+                ]
+              },
+              "first_seen": "2026-08-28T06:10:43.673Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Awesome AI Model Routing (Not Diamond)",
+              "description": "Removed: last commit Mar 2025 repo",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "A curated list of awesome approaches to AI model routing",
+                "homepage": null,
+                "id": 840057595,
+                "language": null,
+                "license": "Apache-2.0",
+                "last_commit": "2025-03-24T16:54:50Z",
+                "open_issues": 16,
+                "owner": "Not-Diamond",
+                "repo": "awesome-ai-model-routing",
+                "stars": 253,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T06:10:43.673Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Speculative Sampling reference code",
+              "description": "Removed: 2023 code, last commit Aug 2024; see the speculative-decoding papers and Speculators repo",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Fast inference from large lauguage models via speculative decoding",
+                "homepage": null,
+                "id": 679045986,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2024-08-22T03:34:29Z",
+                "open_issues": 9,
+                "owner": "feifeibear",
+                "repo": "LLMSpeculativeSampling",
+                "stars": 927,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T06:10:43.673Z"
+            },
+            {
+              "node_type": "item",
+              "title": "OpenProvence",
+              "description": "Removed: 70 stars, single author, last commit Nov 2025 repo",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "✂️ OpenProvence: Open-Source, Efficient, and Robust Context Pruning for Retrieval-Augmented Generation",
+                "homepage": null,
+                "id": 1085678548,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2025-11-22T01:30:13Z",
+                "open_issues": 2,
+                "owner": "hotchpotch",
+                "repo": "open_provence",
+                "stars": 70,
+                "topics": [
+                  "information-retrieval",
+                  "machine-learning",
+                  "nlp"
+                ]
+              },
+              "first_seen": "2026-08-28T06:10:43.673Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Context Engineering Guide (mlnjsh)",
+              "description": "Removed: 12 stars, 2 commits repo",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "🧠 The Complete Guide to Context Engineering — Research Papers, Blogs, YouTube Videos, Tools & Best Practices for LLM Context Window Optimization",
+                "homepage": null,
+                "id": 1163900653,
+                "language": null,
+                "license": "MIT",
+                "last_commit": "2026-03-25T12:20:29Z",
+                "open_issues": 0,
+                "owner": "mlnjsh",
+                "repo": "context-engineering",
+                "stars": 12,
+                "topics": [
+                  "ai",
+                  "best-practices",
+                  "context-engineering",
+                  "context-window",
+                  "large-language-models",
+                  "llm",
+                  "prompt-engineering",
+                  "rag",
+                  "research",
+                  "retrieval-augmented-generation",
+                  "transformers",
+                  "vector-database"
+                ]
+              },
+              "first_seen": "2026-08-28T06:10:43.673Z"
+            },
+            {
+              "node_type": "item",
+              "title": "TurboQuant community PyTorch repo",
+              "description": "Replaced by the paper in the KV Cache table; the repo is dormant since Apr 2026 and its README retracted the 5x generation claim repo",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "From-scratch PyTorch implementation of Google's TurboQuant (ICLR 2026) for LLM KV cache compression. 5x compression at 3-bit with 99.5% attention fidelity.",
+                "homepage": null,
+                "id": 1191408729,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-04-23T19:45:18Z",
+                "open_issues": 17,
+                "owner": "tonbistudio",
+                "repo": "turboquant-pytorch",
+                "stars": 1049,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T06:10:43.673Z"
+            },
+            {
+              "node_type": "item",
+              "title": "LLM Safe Haven",
+              "description": "Removed: 5 stars; a security tool, not token optimisation (maintainer's companion project) repo",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "One-liner for AI solo developers to fasten the security bolts on their systems",
+                "homepage": null,
+                "id": 1220229610,
+                "language": "JavaScript",
+                "license": "MIT",
+                "last_commit": "2026-10-13T08:54:22Z",
+                "open_issues": 8,
+                "owner": "pleasedodisturb",
+                "repo": "llm-safe-haven",
+                "stars": 5,
+                "topics": [
+                  "agent-security",
+                  "ai-security",
+                  "claude-code",
+                  "cursor",
+                  "hardening",
+                  "llm-security",
+                  "mcp-security",
+                  "prompt-injection",
+                  "security-tools",
+                  "windsurf"
+                ]
+              },
+              "first_seen": "2026-08-28T06:10:43.673Z"
+            }
+          ],
+          "description": "Entries retired or corrected in the October 2026 sweeps, kept visible so the change is auditable.",
+          "node_type": "group",
+          "title": "What No Longer Holds (checked 2026-10-25)"
+        }
+      ],
+      "title": "Quick Wins"
+    },
+    {
       "description": "Reuse previously-processed prompt prefixes to avoid re-computing the same tokens.",
       "items": [
         {
@@ -45,7 +295,7 @@
       "title": "Prompt Caching"
     },
     {
-      "description": "50% discounts for non-time-critical requests. Combine with caching for 95% savings.",
+      "description": "50% off input and output on Anthropic, OpenAI and Gemini batch endpoints. The batch discount stacks multiplicatively with cache reads where both apply (Anthropic: best-effort hits, use the 1-hour TTL; Gemini 3+: both discounts stack), so cached input in a batch costs 1.25-5% of list price, but output still costs 50%.",
       "items": [
         {
           "node_type": "item",
@@ -59,11 +309,11 @@
             "id": 879473096,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-23T06:11:12Z",
-            "open_issues": 79,
+            "last_commit": "2026-10-25T23:11:19Z",
+            "open_issues": 81,
             "owner": "bespokelabsai",
             "repo": "curator",
-            "stars": 1750,
+            "stars": 1751,
             "topics": [
               "agents",
               "deep-learning",
@@ -84,7 +334,7 @@
       "title": "Batch APIs"
     },
     {
-      "description": "Route simple tasks to cheaper models. 80% of typical LLM calls don't need the most expensive model.",
+      "description": "Route simple tasks to cheaper models. Published routers report 2x+ cost cuts at matched quality (RouteLLM) and 60-75% on agent trajectories (AgentRouter, SAAR); the cited guides put 60-70% of agent calls within reach of smaller models.",
       "items": [
         {
           "children": [
@@ -95,16 +345,16 @@
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+                "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
                 "homepage": null,
                 "id": 1144520675,
                 "language": "Python",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-25T00:12:35Z",
-                "open_issues": 303,
+                "last_commit": "2026-10-25T18:31:18Z",
+                "open_issues": 309,
                 "owner": "Alishahryar1",
                 "repo": "free-claude-code",
-                "stars": 63161,
+                "stars": 63460,
                 "topics": []
               },
               "first_seen": "2026-10-21T00:40:40.694Z"
@@ -121,11 +371,11 @@
                 "id": 671269505,
                 "language": "Python",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-25T00:18:33Z",
-                "open_issues": 5661,
+                "last_commit": "2026-10-25T21:25:04Z",
+                "open_issues": 5701,
                 "owner": "BerriAI",
                 "repo": "litellm",
-                "stars": 61978,
+                "stars": 62030,
                 "topics": [
                   "ai-gateway",
                   "anthropic",
@@ -163,7 +413,7 @@
                 "open_issues": 312,
                 "owner": "Portkey-AI",
                 "repo": "gateway",
-                "stars": 13266,
+                "stars": 13274,
                 "topics": [
                   "ai-gateway",
                   "gateway",
@@ -187,7 +437,7 @@
             {
               "node_type": "item",
               "title": "Bifrost",
-              "description": "50x faster than LiteLLM; adaptive load balancer, 1000+ models.",
+              "description": "Open-source AI gateway (Apache-2.0) unifying 23+ providers and 10,000+ models with adaptive load balancing; the project reports about 11 us of added overhead per request at 5k RPS.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -196,11 +446,11 @@
                 "id": 951115072,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-24T19:02:44Z",
-                "open_issues": 1322,
+                "last_commit": "2026-10-26T00:06:32Z",
+                "open_issues": 1339,
                 "owner": "maximhq",
                 "repo": "bifrost",
-                "stars": 9080,
+                "stars": 9100,
                 "topics": [
                   "agent-gateway",
                   "ai-gateway",
@@ -229,7 +479,7 @@
             {
               "node_type": "item",
               "title": "vLLM Semantic Router",
-              "description": "System-level signal-driven router for Mixture-of-Models across cloud, data center, and edge. v0.3 \"Themis\" (June 2026); SAAR adds session-aware model selection cutting model switches 79% in multi-agent deployments.",
+              "description": "System-level signal-driven router for Mixture-of-Models across cloud, data center, and edge. v0.4 \"Hermes\" (Sep 2026); SAAR adds session-aware model selection cutting model switches 79% in multi-agent deployments.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -238,11 +488,11 @@
                 "id": 1045247072,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-24T14:54:09Z",
-                "open_issues": 739,
+                "last_commit": "2026-10-25T23:26:46Z",
+                "open_issues": 753,
                 "owner": "vllm-project",
                 "repo": "semantic-router",
-                "stars": 6253,
+                "stars": 6256,
                 "topics": [
                   "ai-gateway",
                   "guardrails",
@@ -275,7 +525,7 @@
                 "open_issues": 45,
                 "owner": "lm-sys",
                 "repo": "RouteLLM",
-                "stars": 5634,
+                "stars": 5635,
                 "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
@@ -296,7 +546,7 @@
                 "open_issues": 32,
                 "owner": "ulab-uiuc",
                 "repo": "LLMRouter",
-                "stars": 3025,
+                "stars": 3029,
                 "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
@@ -326,34 +576,6 @@
           "description": null,
           "node_type": "group",
           "title": "Frameworks"
-        },
-        {
-          "children": [
-            {
-              "node_type": "item",
-              "title": "Awesome AI Model Routing",
-              "description": "Comprehensive list of routing approaches.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "A curated list of awesome approaches to AI model routing",
-                "homepage": null,
-                "id": 840057595,
-                "language": null,
-                "license": "Apache-2.0",
-                "last_commit": "2025-03-24T16:54:50Z",
-                "open_issues": 16,
-                "owner": "Not-Diamond",
-                "repo": "awesome-ai-model-routing",
-                "stars": 253,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T06:10:43.673Z"
-            }
-          ],
-          "description": null,
-          "node_type": "group",
-          "title": "Curated Lists"
         }
       ],
       "title": "Model Routing"
@@ -366,7 +588,7 @@
             {
               "node_type": "item",
               "title": "caveman",
-              "description": "Claude Code plugin that instructs the model to answer in terse \"caveman\" style; the maintainers' three-session A/B measured 33.2% fewer input tokens with all 18 tasks still passing.",
+              "description": "Claude Code plugin that instructs the model to answer in terse \"caveman\" style; the maintainers' A/B over 54 Claude Code runs measured 33.2% fewer input tokens with 18 of 18 tasks still passing.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -375,11 +597,11 @@
                 "id": 1201173969,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-24T08:01:52Z",
-                "open_issues": 118,
+                "last_commit": "2026-10-25T09:24:33Z",
+                "open_issues": 106,
                 "owner": "JuliusBrussee",
                 "repo": "caveman",
-                "stars": 114825,
+                "stars": 115049,
                 "topics": [
                   "ai",
                   "anthropic",
@@ -407,11 +629,11 @@
                 "id": 1139971460,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-23T16:29:27Z",
-                "open_issues": 1614,
+                "last_commit": "2026-10-25T18:16:27Z",
+                "open_issues": 1625,
                 "owner": "rtk-ai",
                 "repo": "rtk",
-                "stars": 84473,
+                "stars": 84536,
                 "topics": [
                   "agentic-coding",
                   "ai-coding",
@@ -443,10 +665,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-24T19:15:37Z",
-                "open_issues": 539,
+                "open_issues": 549,
                 "owner": "headroomlabs-ai",
                 "repo": "headroom",
-                "stars": 77733,
+                "stars": 77813,
                 "topics": [
                   "agent",
                   "ai",
@@ -488,7 +710,7 @@
                 "open_issues": 2,
                 "owner": "toon-format",
                 "repo": "toon",
-                "stars": 25553,
+                "stars": 25558,
                 "topics": [
                   "data-format",
                   "llm",
@@ -514,7 +736,7 @@
                 "open_issues": 19,
                 "owner": "mufeedvh",
                 "repo": "code2prompt",
-                "stars": 7734,
+                "stars": 7737,
                 "topics": [
                   "ai",
                   "chatgpt",
@@ -549,7 +771,7 @@
                 "open_issues": 125,
                 "owner": "microsoft",
                 "repo": "LLMLingua",
-                "stars": 6771,
+                "stars": 6773,
                 "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
@@ -557,7 +779,7 @@
             {
               "node_type": "item",
               "title": "lean-ctx",
-              "description": "Rust binary context intelligence layer for AI coding agents; 60-90% fewer tokens via shell-output compression and 10 cached-read modes; MCP server with 76 tools and cross-session memory. Works with Claude Code, Cursor, Copilot, Windsurf, Gemini CLI, and 30+ others.",
+              "description": "Rust context layer for AI coding agents with 16 file-read modes, shell-output compression, an MCP server and cross-session memory; works with Claude Code, Cursor, Copilot, Windsurf, Gemini CLI and 30+ other clients. Mixed licensing (Apache-2.0 core, some v4 modules under commercial source-visible terms); the project withdrew its earlier benchmark figures.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -566,11 +788,11 @@
                 "id": 1189918673,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-24T18:44:03Z",
-                "open_issues": 10,
+                "last_commit": "2026-10-25T19:10:24Z",
+                "open_issues": 16,
                 "owner": "yvgude",
                 "repo": "lean-ctx",
-                "stars": 3897,
+                "stars": 3898,
                 "topics": [
                   "agentic-coding",
                   "ai",
@@ -594,6 +816,48 @@
                 ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
+            },
+            {
+              "node_type": "item",
+              "title": "ripwire",
+              "description": "Zero-dependency C++ CLI and MCP server from Red Hat Emerging Technologies that gives coding agents a ranked symbol and call-graph map instead of whole-file reads; signatures are 74.7% fewer bytes than full bodies at top-50, though the project's own 12-question comparison also shows fewer questions fully answered than plain grep-and-read (Apache-2.0).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Find what you want without reading the repo, then check you built what you meant — blast radius, tests-to-run, quality deltas. Signatures at 74.7% fewer bytes than bodies; every guess labelled, every loss published. Paddle out with a map.",
+                "homepage": null,
+                "id": 1316317581,
+                "language": "C++",
+                "license": "Apache-2.0",
+                "last_commit": "2026-10-25T18:43:35Z",
+                "open_issues": 74,
+                "owner": "redhat-et",
+                "repo": "ripwire",
+                "stars": 2481,
+                "topics": [
+                  "agent-tools",
+                  "call-graph",
+                  "claude-code",
+                  "code-analysis",
+                  "code-intelligence",
+                  "code-review",
+                  "code-search",
+                  "codex",
+                  "coding-agents",
+                  "context-engineering",
+                  "context-window",
+                  "dependency-graph",
+                  "graphrag",
+                  "hermes",
+                  "mcp-server",
+                  "openclaw",
+                  "refactoring",
+                  "software-architecture",
+                  "token-optimization",
+                  "tree-sitter"
+                ]
+              },
+              "first_seen": "2026-10-26T00:27:32.927Z"
             },
             {
               "node_type": "item",
@@ -671,7 +935,7 @@
             {
               "node_type": "item",
               "title": "snip",
-              "description": "Single-binary Go CLI proxy that filters shell output before it reaches a coding agent's context (60-90% fewer tokens), with 132 filters defined as declarative YAML data instead of compiled code; 13 agent integrations, via a native shell hook for Claude Code, Cursor, Copilot, Codex, Pi and Grok, and via injected rules files for Gemini CLI, Windsurf, Cline, Kilo Code and Antigravity.",
+              "description": "Single-binary Go CLI proxy that filters shell output before it reaches a coding agent's context (60-90% fewer tokens), with 132 filters defined as declarative YAML data instead of compiled code; 14 agent integrations, via a native shell hook for Claude Code, Cursor, Copilot, Codex, Pi and Grok, and via injected rules files for Gemini CLI, Windsurf, Cline, Kilo Code and Antigravity.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -834,7 +1098,7 @@
                 "open_issues": 49,
                 "owner": "feyninc",
                 "repo": "chonkie",
-                "stars": 4805,
+                "stars": 4806,
                 "topics": [
                   "ai",
                   "chonkie",
@@ -850,65 +1114,6 @@
                 ]
               },
               "first_seen": "2026-10-21T00:40:40.694Z"
-            },
-            {
-              "node_type": "item",
-              "title": "OpenProvence",
-              "description": "Open reranker-pruner that drops ~99% off-topic sentences and compresses 80-90% of relevant RAG text; CPU-friendly.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "✂️ OpenProvence: Open-Source, Efficient, and Robust Context Pruning for Retrieval-Augmented Generation",
-                "homepage": null,
-                "id": 1085678548,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2025-11-22T01:30:13Z",
-                "open_issues": 2,
-                "owner": "hotchpotch",
-                "repo": "open_provence",
-                "stars": 70,
-                "topics": [
-                  "information-retrieval",
-                  "machine-learning",
-                  "nlp"
-                ]
-              },
-              "first_seen": "2026-08-28T06:10:43.673Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Context Engineering Guide",
-              "description": "Curated papers and tools.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "🧠 The Complete Guide to Context Engineering — Research Papers, Blogs, YouTube Videos, Tools & Best Practices for LLM Context Window Optimization",
-                "homepage": null,
-                "id": 1163900653,
-                "language": null,
-                "license": "MIT",
-                "last_commit": "2026-03-25T12:20:29Z",
-                "open_issues": 0,
-                "owner": "mlnjsh",
-                "repo": "context-engineering",
-                "stars": 12,
-                "topics": [
-                  "ai",
-                  "best-practices",
-                  "context-engineering",
-                  "context-window",
-                  "large-language-models",
-                  "llm",
-                  "prompt-engineering",
-                  "rag",
-                  "research",
-                  "retrieval-augmented-generation",
-                  "transformers",
-                  "vector-database"
-                ]
-              },
-              "first_seen": "2026-08-28T06:10:43.673Z"
             }
           ],
           "description": null,
@@ -935,11 +1140,11 @@
                 "id": 599547518,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-24T22:19:15Z",
-                "open_issues": 9417,
+                "last_commit": "2026-10-25T23:55:33Z",
+                "open_issues": 9434,
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 95343,
+                "stars": 95490,
                 "topics": [
                   "amd",
                   "blackwell",
@@ -977,11 +1182,11 @@
                 "id": 740303686,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-24T23:51:19Z",
-                "open_issues": 6168,
+                "last_commit": "2026-10-25T23:40:43Z",
+                "open_issues": 6199,
                 "owner": "sgl-project",
                 "repo": "sglang",
-                "stars": 37799,
+                "stars": 38156,
                 "topics": [
                   "attention",
                   "blackwell",
@@ -1017,11 +1222,11 @@
                 "id": 942206898,
                 "language": "Rust",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-25T00:13:42Z",
-                "open_issues": 2159,
+                "last_commit": "2026-10-26T00:26:36Z",
+                "open_issues": 2178,
                 "owner": "ai-dynamo",
                 "repo": "dynamo",
-                "stars": 8383,
+                "stars": 8385,
                 "topics": [
                   "diffusion",
                   "disaggregated-serving",
@@ -1049,11 +1254,11 @@
                 "id": 819733173,
                 "language": "C++",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-24T15:36:47Z",
-                "open_issues": 822,
+                "last_commit": "2026-10-25T13:06:10Z",
+                "open_issues": 832,
                 "owner": "kvcache-ai",
                 "repo": "Mooncake",
-                "stars": 6877,
+                "stars": 6881,
                 "topics": [
                   "disaggregation",
                   "inference",
@@ -1082,10 +1287,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-23T15:03:41Z",
-                "open_issues": 712,
+                "open_issues": 715,
                 "owner": "gpustack",
                 "repo": "gpustack",
-                "stars": 5885,
+                "stars": 5889,
                 "topics": [
                   "ascend",
                   "cuda",
@@ -1121,11 +1326,11 @@
                 "id": 975070903,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-24T14:43:14Z",
-                "open_issues": 131,
+                "last_commit": "2026-10-25T12:24:21Z",
+                "open_issues": 139,
                 "owner": "llm-d",
                 "repo": "llm-d",
-                "stars": 5004,
+                "stars": 5014,
                 "topics": [
                   "ai",
                   "cncf",
@@ -1159,11 +1364,11 @@
                 "id": 807305060,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-24T15:43:32Z",
+                "last_commit": "2026-10-25T14:15:36Z",
                 "open_issues": 878,
                 "owner": "LMCache",
                 "repo": "LMCache",
-                "stars": 12159,
+                "stars": 12164,
                 "topics": [
                   "amd",
                   "cuda",
@@ -1195,7 +1400,7 @@
                 "open_issues": 67,
                 "owner": "deepseek-ai",
                 "repo": "DeepSpec",
-                "stars": 7246,
+                "stars": 7247,
                 "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
@@ -1216,7 +1421,7 @@
                 "open_issues": 106,
                 "owner": "z-lab",
                 "repo": "dflash",
-                "stars": 6198,
+                "stars": 6200,
                 "topics": []
               },
               "first_seen": "2026-10-21T00:40:40.694Z"
@@ -1233,11 +1438,11 @@
                 "id": 790916393,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-24T23:51:57Z",
-                "open_issues": 529,
+                "last_commit": "2026-10-25T21:35:09Z",
+                "open_issues": 538,
                 "owner": "NVIDIA",
                 "repo": "Model-Optimizer",
-                "stars": 5428,
+                "stars": 5435,
                 "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
@@ -1254,11 +1459,11 @@
                 "id": 813348592,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-25T00:19:01Z",
-                "open_issues": 378,
+                "last_commit": "2026-10-25T22:39:29Z",
+                "open_issues": 372,
                 "owner": "vllm-project",
                 "repo": "aibrix",
-                "stars": 5160,
+                "stars": 5161,
                 "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
@@ -1279,7 +1484,7 @@
                 "open_issues": 124,
                 "owner": "vllm-project",
                 "repo": "llm-compressor",
-                "stars": 3908,
+                "stars": 3912,
                 "topics": [
                   "compression",
                   "quantization"
@@ -1299,11 +1504,11 @@
                 "id": 991482082,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-23T03:29:41Z",
-                "open_issues": 101,
+                "last_commit": "2026-10-25T21:27:54Z",
+                "open_issues": 104,
                 "owner": "ovg-project",
                 "repo": "kvcached",
-                "stars": 1970,
+                "stars": 2002,
                 "topics": [
                   "elastic-kvcache",
                   "gpu-mutiplexing",
@@ -1327,6 +1532,31 @@
             },
             {
               "node_type": "item",
+              "title": "KVCache-Factory",
+              "description": "Research playground (MIT) that runs StreamingLLM, H2O, SnapKV, PyramidKV, AdaKV, HeadKV, Quest and KIVI-style KV quantization behind one interface with LongBench, needle-in-a-haystack and RULER evaluators.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Unified KV Cache Compression Methods for Auto-Regressive Models",
+                "homepage": null,
+                "id": 810707714,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-08-13T07:35:40Z",
+                "open_issues": 4,
+                "owner": "Zefan-Cai",
+                "repo": "KVCache-Factory",
+                "stars": 1389,
+                "topics": [
+                  "kv-cache",
+                  "kv-cache-compression",
+                  "llm"
+                ]
+              },
+              "first_seen": "2026-10-26T00:27:32.927Z"
+            },
+            {
+              "node_type": "item",
               "title": "NVIDIA kvpress",
               "description": "KV cache compression made easy.",
               "children": [],
@@ -1337,8 +1567,8 @@
                 "id": 884452470,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-21T07:22:07Z",
-                "open_issues": 12,
+                "last_commit": "2026-10-25T21:32:13Z",
+                "open_issues": 11,
                 "owner": "NVIDIA",
                 "repo": "kvpress",
                 "stars": 1237,
@@ -1383,27 +1613,6 @@
             },
             {
               "node_type": "item",
-              "title": "TurboQuant",
-              "description": "Community PyTorch reimplementation (not Google's own code) of TurboQuant (ICLR 2026) KV-cache quantization; 3-bit keys at 99.5% attention-score fidelity, with generation quality still caveated in its README. Dormant since Apr 2026.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "From-scratch PyTorch implementation of Google's TurboQuant (ICLR 2026) for LLM KV cache compression. 5x compression at 3-bit with 99.5% attention fidelity.",
-                "homepage": null,
-                "id": 1191408729,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2026-04-23T19:45:18Z",
-                "open_issues": 17,
-                "owner": "tonbistudio",
-                "repo": "turboquant-pytorch",
-                "stars": 1049,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T06:10:43.673Z"
-            },
-            {
-              "node_type": "item",
               "title": "Speculators",
               "description": "vLLM's library for building, evaluating, and serving speculative-decoding drafters (Apache-2.0).",
               "children": [],
@@ -1415,10 +1624,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-23T22:35:44Z",
-                "open_issues": 201,
+                "open_issues": 202,
                 "owner": "vllm-project",
                 "repo": "speculators",
-                "stars": 920,
+                "stars": 921,
                 "topics": [
                   "speculative-decoding"
                 ]
@@ -1479,27 +1688,6 @@
           "children": [
             {
               "node_type": "item",
-              "title": "Speculative Sampling",
-              "description": "Fast inference via speculative decoding.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Fast inference from large lauguage models via speculative decoding",
-                "homepage": null,
-                "id": 679045986,
-                "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2024-08-22T03:34:29Z",
-                "open_issues": 9,
-                "owner": "feifeibear",
-                "repo": "LLMSpeculativeSampling",
-                "stars": 927,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T06:10:43.673Z"
-            },
-            {
-              "node_type": "item",
               "title": "Awesome KV Cache Compression",
               "description": "Must-read paper list.",
               "children": [],
@@ -1522,6 +1710,39 @@
                 ]
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Awesome KV Cache Optimization",
+              "description": "Companion list to the ACL 2026 system-aware KV-cache survey (scheduling, placement and migration, compression and retention); 63 papers added in October 2026.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "[ACL 2026] Towards Efficient Large Language Model Serving: A Survey on System-Aware KV Cache Optimization",
+                "homepage": "https://jjiantong.github.io/Awesome-KV-Cache-Optimization/",
+                "id": 1085636225,
+                "language": "Python",
+                "license": null,
+                "last_commit": "2026-10-23T01:04:17Z",
+                "open_issues": 0,
+                "owner": "jjiantong",
+                "repo": "Awesome-KV-Cache-Optimization",
+                "stars": 423,
+                "topics": [
+                  "ai",
+                  "computer-architecture",
+                  "kv-cache",
+                  "llm",
+                  "llm-inference",
+                  "llm-serving",
+                  "machine-learning",
+                  "mlsys",
+                  "neural-language-processing",
+                  "serving-ml",
+                  "system"
+                ]
+              },
+              "first_seen": "2026-10-26T00:27:32.927Z"
             }
           ],
           "description": "The full KV-cache paper table lives in the Academic Papers section below.",
@@ -1543,10 +1764,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-05-17T12:37:42Z",
-                "open_issues": 73,
+                "open_issues": 74,
                 "owner": "sgl-project",
                 "repo": "mini-sglang",
-                "stars": 5414,
+                "stars": 5434,
                 "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
@@ -1592,11 +1813,11 @@
                 "id": 1018687398,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-25T00:04:16Z",
-                "open_issues": 273,
+                "last_commit": "2026-10-26T00:27:13Z",
+                "open_issues": 293,
                 "owner": "SemiAnalysisAI",
                 "repo": "InferenceX",
-                "stars": 1914,
+                "stars": 1923,
                 "topics": [
                   "agentic",
                   "agentic-ai",
@@ -1646,10 +1867,10 @@
             "language": "TypeScript",
             "license": "Apache-2.0",
             "last_commit": "2026-10-22T17:43:26Z",
-            "open_issues": 1,
+            "open_issues": 2,
             "owner": "microsoft",
             "repo": "playwright-mcp",
-            "stars": 38591,
+            "stars": 38631,
             "topics": [
               "mcp",
               "playwright"
@@ -1660,7 +1881,7 @@
         {
           "node_type": "item",
           "title": "Agent Browser",
-          "description": "~28 KB (accessibility tree) Comparable to Playwright MCP; actively maintained (v0.39.0, Oct 2026) GitHub",
+          "description": "~28 KB (accessibility tree) Comparable to Playwright MCP; actively maintained (v0.39.2, Oct 22, 2026) GitHub",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1669,11 +1890,11 @@
             "id": 1132001614,
             "language": "Rust",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-25T00:08:52Z",
-            "open_issues": 698,
+            "last_commit": "2026-10-25T21:44:25Z",
+            "open_issues": 703,
             "owner": "vercel-labs",
             "repo": "agent-browser",
-            "stars": 44542,
+            "stars": 44584,
             "topics": []
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
@@ -1690,11 +1911,11 @@
             "id": 598667202,
             "language": "Zig",
             "license": "AGPL-3.0",
-            "last_commit": "2026-10-24T20:34:23Z",
-            "open_issues": 105,
+            "last_commit": "2026-10-26T00:19:41Z",
+            "open_issues": 99,
             "owner": "lightpanda-io",
             "repo": "browser",
-            "stars": 36942,
+            "stars": 36992,
             "topics": [
               "browser",
               "browser-automation",
@@ -1723,10 +1944,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-10-24T07:23:03Z",
-                "open_issues": 606,
+                "open_issues": 613,
                 "owner": "browser-use",
                 "repo": "browser-use",
-                "stars": 119060,
+                "stars": 119125,
                 "topics": [
                   "ai-agents",
                   "ai-tools",
@@ -1761,11 +1982,11 @@
                 "id": 1172166954,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-24T21:31:55Z",
+                "last_commit": "2026-10-25T21:19:02Z",
                 "open_issues": 4,
                 "owner": "atlassian-labs",
                 "repo": "mcp-compressor",
-                "stars": 136,
+                "stars": 137,
                 "topics": []
               },
               "first_seen": "2026-08-28T06:10:43.673Z"
@@ -1793,11 +2014,11 @@
             "id": 642497346,
             "language": "TypeScript",
             "license": "NOASSERTION",
-            "last_commit": "2026-10-25T00:09:23Z",
-            "open_issues": 1128,
+            "last_commit": "2026-10-25T20:33:32Z",
+            "open_issues": 1147,
             "owner": "langfuse",
             "repo": "langfuse",
-            "stars": 36373,
+            "stars": 36469,
             "topics": [
               "analytics",
               "autogen",
@@ -1834,11 +2055,11 @@
             "id": 136202695,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-25T00:03:59Z",
-            "open_issues": 2221,
+            "last_commit": "2026-10-26T00:21:15Z",
+            "open_issues": 2235,
             "owner": "mlflow",
             "repo": "mlflow",
-            "stars": 28521,
+            "stars": 28531,
             "topics": [
               "agentops",
               "agents",
@@ -1878,7 +2099,7 @@
             "open_issues": 144,
             "owner": "openai",
             "repo": "tiktoken",
-            "stars": 19517,
+            "stars": 19525,
             "topics": []
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
@@ -1886,7 +2107,7 @@
         {
           "node_type": "item",
           "title": "ccusage",
-          "description": "Fast local CLI reporting tokens and cost across 14+ coding agents (Claude Code, Codex, Gemini CLI, Copilot); offline, no upload.",
+          "description": "Fast local CLI reporting tokens and cost across 18 coding agents (Claude Code, Codex, Gemini CLI, Copilot CLI, OpenCode and more); offline, no upload.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1895,11 +2116,11 @@
             "id": 992755069,
             "language": "Rust",
             "license": "NOASSERTION",
-            "last_commit": "2026-10-24T21:04:35Z",
+            "last_commit": "2026-10-25T03:36:22Z",
             "open_issues": 4,
             "owner": "ccusage",
             "repo": "ccusage",
-            "stars": 19165,
+            "stars": 19175,
             "topics": []
           },
           "first_seen": "2026-08-28T06:10:43.673Z"
@@ -1917,10 +2138,10 @@
             "language": "TypeScript",
             "license": "MIT",
             "last_commit": "2026-10-21T17:25:30Z",
-            "open_issues": 40,
+            "open_issues": 41,
             "owner": "getagentseal",
             "repo": "codeburn",
-            "stars": 11570,
+            "stars": 11577,
             "topics": [
               "ai-coding",
               "claude-code",
@@ -1951,10 +2172,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-10-19T10:49:59Z",
-            "open_issues": 805,
+            "open_issues": 809,
             "owner": "traceloop",
             "repo": "openllmetry",
-            "stars": 7504,
+            "stars": 7507,
             "topics": [
               "artifical-intelligence",
               "datascience",
@@ -1994,7 +2215,7 @@
             "open_issues": 35,
             "owner": "tigerless-labs",
             "repo": "cost-xray",
-            "stars": 6321,
+            "stars": 6322,
             "topics": [
               "claude-code",
               "codex-cli",
@@ -2020,10 +2241,10 @@
             "language": "TypeScript",
             "license": "Apache-2.0",
             "last_commit": "2026-10-24T01:17:24Z",
-            "open_issues": 172,
+            "open_issues": 173,
             "owner": "Helicone",
             "repo": "helicone",
-            "stars": 6236,
+            "stars": 6238,
             "topics": [
               "agent-monitoring",
               "analytics",
@@ -2064,7 +2285,7 @@
             "open_issues": 197,
             "owner": "AgentOps-AI",
             "repo": "agentops",
-            "stars": 5912,
+            "stars": 5914,
             "topics": [
               "agent",
               "agentops",
@@ -2089,70 +2310,8 @@
         },
         {
           "node_type": "item",
-          "title": "tokencost",
-          "description": "USD cost estimates for 400+ LLMs.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "Easy token price estimates for 400+ LLMs. TokenOps.",
-            "homepage": "https://agentops.ai",
-            "id": 726692169,
-            "language": "Python",
-            "license": "MIT",
-            "last_commit": "2025-09-05T08:10:10Z",
-            "open_issues": 31,
-            "owner": "AgentOps-AI",
-            "repo": "tokencost",
-            "stars": 2004,
-            "topics": [
-              "analytics",
-              "claude",
-              "large-language-models",
-              "llm",
-              "observability",
-              "openai",
-              "price",
-              "price-tracker",
-              "token",
-              "tokenization"
-            ]
-          },
-          "first_seen": "2026-08-28T06:10:43.673Z"
-        },
-        {
-          "node_type": "item",
-          "title": "Helicone AI Gateway",
-          "description": "Fastest open-source AI gateway (Rust).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "The fastest, lightest, and easiest-to-integrate AI gateway on the market. Fully open-sourced.",
-            "homepage": "https://docs.helicone.ai/ai-gateway",
-            "id": 966372868,
-            "language": "Rust",
-            "license": "GPL-3.0",
-            "last_commit": "2025-11-21T01:25:55Z",
-            "open_issues": 13,
-            "owner": "Helicone",
-            "repo": "ai-gateway",
-            "stars": 640,
-            "topics": [
-              "ai",
-              "cache",
-              "gateway",
-              "llm",
-              "llms",
-              "load-balancing",
-              "observability",
-              "rate-limiting"
-            ]
-          },
-          "first_seen": "2026-08-28T06:10:43.673Z"
-        },
-        {
-          "node_type": "item",
           "title": "Future AGI traceAI",
-          "description": "OpenTelemetry-based AI tracing capturing per-call tokens, cost, and latency across 35+ frameworks.",
+          "description": "OpenTelemetry-based AI tracing capturing per-call tokens, cost, and latency across 50+ frameworks.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -2161,11 +2320,11 @@
             "id": 966544022,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-22T05:31:37Z",
-            "open_issues": 90,
+            "last_commit": "2026-10-25T20:33:13Z",
+            "open_issues": 91,
             "owner": "future-agi",
             "repo": "traceAI",
-            "stars": 256,
+            "stars": 260,
             "topics": [
               "ai",
               "ai-agents",
@@ -2195,7 +2354,7 @@
             "open_issues": 6,
             "owner": "luoyuctl",
             "repo": "agenttrace",
-            "stars": 153,
+            "stars": 152,
             "topics": [
               "ai-agent-observability",
               "ai-agents",
@@ -2240,7 +2399,7 @@
                 "open_issues": 8,
                 "owner": "xlite-dev",
                 "repo": "Awesome-LLM-Inference",
-                "stars": 5539,
+                "stars": 5541,
                 "topics": [
                   "awesome-llm",
                   "deepseek",
@@ -2374,38 +2533,6 @@
                 ]
               },
               "first_seen": "2026-10-21T00:40:40.694Z"
-            },
-            {
-              "node_type": "item",
-              "title": "LLM Safe Haven",
-              "description": "Security toolkit for AI coding agents. hardens Claude Code, Cursor, Windsurf in 60 seconds. Companion project — agent retries from security failures waste tokens.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "One-liner for AI solo developers to fasten the security bolts on their systems",
-                "homepage": null,
-                "id": 1220229610,
-                "language": "JavaScript",
-                "license": "MIT",
-                "last_commit": "2026-10-13T08:54:22Z",
-                "open_issues": 8,
-                "owner": "pleasedodisturb",
-                "repo": "llm-safe-haven",
-                "stars": 5,
-                "topics": [
-                  "agent-security",
-                  "ai-security",
-                  "claude-code",
-                  "cursor",
-                  "hardening",
-                  "llm-security",
-                  "mcp-security",
-                  "prompt-injection",
-                  "security-tools",
-                  "windsurf"
-                ]
-              },
-              "first_seen": "2026-08-28T06:10:43.673Z"
             }
           ],
           "description": null,
@@ -2417,7 +2544,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-25T00:22:56.028Z",
+    "last_updated": "2026-10-26T00:27:32.927Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of strategies, tools, papers, and resources for reducing LLM token costs and improving efficiency in production.",
@@ -2425,8 +2552,8 @@
       "id": 1211661982,
       "language": "Shell",
       "license": "NOASSERTION",
-      "last_commit": "2026-10-20T11:00:24Z",
-      "open_issues": 7,
+      "last_commit": "2026-10-25T17:04:35Z",
+      "open_issues": 0,
       "owner": "pleasedodisturb",
       "repo": "awesome-llm-token-optimization",
       "stars": 103,
@@ -2453,7 +2580,7 @@
         "token-optimization"
       ]
     },
-    "original_repository_sha": "9c7827d8eb32f8a3712103d00b656a592236df30",
+    "original_repository_sha": "4a2f4bf5f9e482a8028f7cc4a572222c4172baad",
     "enhanced_repository": "enhansome/enhansome-llm-token-optimization",
     "enhanced_repository_description": null,
     "title": "Awesome LLM Token Optimization with stars"
